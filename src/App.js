@@ -20,27 +20,33 @@ const navigation = [
 ]
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'All in one place',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      'HubOEM allows your customers to view manuals and warranties, schedule service, and order parts, for all the equipment in their facility. They can perform these critical maintenance tasks from the convenience of their laptop, tablet or mobile device.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Drive parts sales',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      'HubOEM pulls wear parts data and customer data to create timely, targeted order prompts. By streamlining the ordering process, HubOEM can also drive increased ordering in key wear components. A simplified ordering mechanism can drive 40%+ sales increases for some products!',
     icon: LockClosedIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Handle service requests',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      'Customers can request for services through the app, and can send messages, photos, videos, and other files to help the service team adequately prepare for the visit.',
     icon: ArrowPathIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'Gain insight with analytics',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
+      'In their May 6th issue, The Economist referred to Data as the world’s most valuable commodity. Our team of packaging industry experts and data scientists uses your historical sales information to find patterns and trends to help you determine how best to price your parts and services to maximize your revenue.',
+    icon: FingerPrintIcon,
+  },
+  {
+    name: 'Create lock-in with your customers',
+    description:
+      'Increase customer retention, not just for parts and services, but for capital sales as well. When customers use HubOEM, they experience better customer service and their machines run more smoothly, leading them to stick with the OEM.',
     icon: FingerPrintIcon,
   },
 ]
@@ -87,11 +93,64 @@ const tiers = [
 const faqs = [
   {
     id: 1,
-    question: "What's the best thing about Switzerland?",
+    question: "What size company is best for this application?",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We work with a wide variety of OEMs from startups putting their first handful of machines into the field to established industry leaders with thousands of machines in their install base.",
   },
-  // More questions...
+  {
+    id: 2,
+    question: "What if we already have a store on our website?",
+    answer:
+      "We aren’t afraid of a little competition! Your website store probably did not completely eliminate orders by phone and email, HubOEM is intended to work in concert with your other sales channels to drive after sales revenue growth.",
+  },
+  {
+    id: 3,
+    question: "Our machines are all custom built, will this solution still work for us?",
+    answer:
+      "Yes! This is exactly the problem HubOEM was designed to solve. Parts lists and manuals can be tracked at the machine specific/serial number level and tailored to each individual install. In fact, we now offer an integration that allows your to export your assembly drawings right from SolidWorks or other design software and we can pull all your individual parts directly into our system.",
+  },
+  {
+    id: 4,
+    question: "We like to be the main point of contact with our customers. Will this application facilitate direct communication?",
+    answer:
+      "If you are already using email and social media to interact with your customers, then this is really just another tool in that toolbox. Your machine’s view will still show your logo and all POs and messages go right to you.",
+  },
+  {
+    id: 5,
+    question: "We already have a CRM, how is this any different?",
+    answer:
+      "HubOEM is NOT a CRM. It is a customer service platform to better support your existing install base. In fact, we offer easy integration with many of the leading CRM providers to easily and seamlessly manage your customer data.",
+  },
+  {
+    id: 6,
+    question: "We sell plenty of parts already, why should we change what works?",
+    answer:
+      "Horses could get you from one place to another, but cars made it faster, easier and more reliable. HubOEM clients consistently sell more parts with less effort on the part of their aftersale team.",
+  },
+  {
+    id: 7,
+    question: "Our customers are large public companies. How do I know they will be open to using your product?",
+    answer:
+      "HubOEM is already working with large consumer-facing brands",
+  },
+  {
+    id: 8,
+    question: "Our machines have been in the field forever?",
+    answer:
+      "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and services and assess opportunities for new equipment sales!",
+  },
+  {
+    id: 9,
+    question: "Our machines do not require any wear part replacements. How does HubOEM add value?",
+    answer:
+      "HubOEM provides a centralized point for viewing manuals and documentation as well as service requests.",
+  },
+  {
+    id: 10,
+    question: "Does HubOEM have API capabilities?",
+    answer:
+      "Yes, HubOEM has API integrations for easy connection to many common enterprise applications.",
+  },
 ]
 const footerNavigation = {
   solutions: [
@@ -232,22 +291,24 @@ function App() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
                 <h1 id="about-section" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                  Deploy to the cloud with confidence
+                  Parts, Service, Documents
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua.
+                <h2 className="text-xl sm:text-2xltracking-tight text-gray-900 sm:text-3xl pt-4">
+                  Deploy to the cloud with confidence
+                </h2>
+                <p className="mt-6 text-md sm:text-lg leading-8 text-gray-600">
+                  Boost your customer satisfaction while driving up your high margin revenue all while taking stress off of your parts and service team!
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
-                    href="#"
+                    href="#signup-section"
                     className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Get started
                   </a>
-                  <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                  {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
                     Learn more <span aria-hidden="true">→</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="mt-16 flow-root sm:mt-24">
@@ -332,13 +393,12 @@ function App() {
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 id="features-section" className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+            <h2 id="features-section" className="text-base font-semibold leading-7 text-indigo-600">Deploy quickly</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Everything you need to deploy your app
+              Everything you need to manage your aftermarket business
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-              pulvinar et feugiat blandit at. In mi viverra elit nunc.
+              OEMs can easily convert your manual aftermarket process into a digital, semi-automated flow. All it takes is sending us the data.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -393,14 +453,12 @@ function App() {
               <figure>
                 <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
                   <p>
-                    “Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare
-                    arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis enim nullam
-                    ultricies habitant malesuada lorem ac.”
+                    “Using HubOEM has allowed my business to grow in ways I only dreamed of before. At first, the task seemed duanting, but the HubOEM team did a great job onboarding my data and welcoming my customers on my behalf. We have increased Aftermarket revenue by 30% after our first year on the app.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 text-base text-white">
-                  <div className="font-semibold">Judith Black</div>
-                  <div className="mt-1">CEO of Tuple</div>
+                  <div className="font-semibold">Ron Lussier</div>
+                  <div className="mt-1">Head of Aftermarket at Phoenix Stretch Wrappers</div>
                 </figcaption>
               </figure>
             </div>
@@ -417,8 +475,8 @@ function App() {
               </p>
             </div>
             <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-              Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas
-              in. Explicabo id ut laborum.
+              Our focus is to provide a great software to an industry that despirately needs it.
+              <br /> For this reason, we have priced out product to be extremely approachable and easy to start.
             </p>
             <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               {tiers.map((tier, tierIdx) => (
