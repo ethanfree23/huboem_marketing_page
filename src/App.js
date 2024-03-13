@@ -11,10 +11,12 @@ import {
 import { CheckIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'About', href: '#about-section' },
+  { name: 'Features', href: '#features-section' },
+  { name: 'Testimonials', href: '#testimonials-section' },
+  { name: 'Pricing', href: '#pricing-section' },
+  { name: 'FAQ', href: '#faq-section' },
+  { name: 'Sign Up', href: '#signup-section' },
 ]
 const features = [
   {
@@ -44,26 +46,25 @@ const features = [
 ]
 const tiers = [
   {
-    name: 'Freelancer',
+    name: 'Base Level',
     id: 'tier-freelancer',
     href: '#',
-    priceMonthly: '$24',
-    description: 'The essentials to provide your best work for clients.',
-    features: ['5 products', 'Up to 1,000 subscribers', 'Basic analytics', '48-hour support response time'],
+    priceMonthly: '$0',
+    description: 'The essentials to provide documentation access for your customers.',
+    features: ['Documents-only', 'Up to 50 licenses', 'No analytics', '48-hour+ support response time'],
     mostPopular: false,
   },
   {
     name: 'Startup',
     id: 'tier-startup',
     href: '#',
-    priceMonthly: '$32',
+    priceMonthly: '$1',
     description: 'A plan that scales with your rapidly growing business.',
     features: [
-      '25 products',
-      'Up to 10,000 subscribers',
-      'Advanced analytics',
+      'Ordering capabilities',
+      'Analytics and reporting',
       '24-hour support response time',
-      'Marketing automations',
+      'Recurring order automation capability',
     ],
     mostPopular: true,
   },
@@ -71,14 +72,14 @@ const tiers = [
     name: 'Enterprise',
     id: 'tier-enterprise',
     href: '#',
-    priceMonthly: '$48',
+    priceMonthly: '?',
     description: 'Dedicated support and infrastructure for your company.',
     features: [
-      'Unlimited products',
-      'Unlimited subscribers',
+      'Unlimited access to each machine',
+      'Unlimited advanced features',
       'Advanced analytics',
       '1-hour, dedicated support response time',
-      'Marketing automations',
+      'Free integrations',
     ],
     mostPopular: false,
   },
@@ -159,9 +160,9 @@ function App() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
-            </a>
+            </a> */}
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -199,12 +200,12 @@ function App() {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
+                  {/* <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -230,7 +231,7 @@ function App() {
           <div className="py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                <h1 id="about-section" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   Deploy to the cloud with confidence
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -331,7 +332,7 @@ function App() {
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+            <h2 id="features-section" className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Everything you need to deploy your app
             </p>
@@ -358,7 +359,7 @@ function App() {
         </div>
 
         {/* Testimonial section */}
-        <div className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
+        <div id="testimonials-section" className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
             <img
               className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
@@ -410,7 +411,7 @@ function App() {
         <div className="py-24 sm:pt-48">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2>
+              <h2 id="pricing-section" className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2>
               <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                 Pricing plans for teams of&nbsp;all&nbsp;sizes
               </p>
@@ -450,7 +451,7 @@ function App() {
                     <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
                     <p className="mt-6 flex items-baseline gap-x-1">
                       <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.priceMonthly}</span>
-                      <span className="text-sm font-semibold leading-6 text-gray-600">/month</span>
+                      <span className="text-sm font-semibold leading-6 text-gray-600">/machine</span>
                     </p>
                     <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
                       {tier.features.map((feature) => (
@@ -480,7 +481,7 @@ function App() {
         </div>
 
         {/* FAQs */}
-        <div className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
+        <div id="faq-section" className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
           <dl className="mt-10 space-y-8 divide-y divide-gray-900/10">
             {faqs.map((faq) => (
@@ -508,7 +509,7 @@ function App() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-2xl text-center">
+          <div id="signup-section" className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Boost your productivity.
               <br />
