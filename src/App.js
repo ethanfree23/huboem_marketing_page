@@ -1,14 +1,19 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
+  ArrowTrendingUpIcon,
+  HandRaisedIcon,
+  MagnifyingGlassIcon,
   LockClosedIcon,
+  ShieldCheckIcon,
   XMarkIcon,
+  CloudIcon,
 } from '@heroicons/react/24/outline'
 import { CheckIcon } from '@heroicons/react/20/solid'
+import LogoImg from './img/logo.png'
+import AutomationImg from './img/automation.jpg'
+import OrderingDashboardImg from './img/orderingDashboard.png'
 
 const navigation = [
   { name: 'About', href: '#about-section' },
@@ -23,45 +28,51 @@ const features = [
     name: 'All in one place',
     description:
       'HubOEM allows your customers to view manuals and warranties, schedule service, and order parts, for all the equipment in their facility. They can perform these critical maintenance tasks from the convenience of their laptop, tablet or mobile device.',
-    icon: CloudArrowUpIcon,
+    icon: CloudIcon,
   },
   {
     name: 'Drive parts sales',
     description:
       'HubOEM pulls wear parts data and customer data to create timely, targeted order prompts. By streamlining the ordering process, HubOEM can also drive increased ordering in key wear components. A simplified ordering mechanism can drive 40%+ sales increases for some products!',
-    icon: LockClosedIcon,
+    icon: ArrowTrendingUpIcon,
   },
   {
     name: 'Handle service requests',
     description:
       'Customers can request for services through the app, and can send messages, photos, videos, and other files to help the service team adequately prepare for the visit.',
-    icon: ArrowPathIcon,
+    icon: HandRaisedIcon,
   },
   {
     name: 'Gain insight with analytics',
     description:
       'In their May 6th issue, The Economist referred to Data as the world’s most valuable commodity. Our team of packaging industry experts and data scientists uses your historical sales information to find patterns and trends to help you determine how best to price your parts and services to maximize your revenue.',
-    icon: FingerPrintIcon,
+    icon: MagnifyingGlassIcon,
   },
   {
     name: 'Create lock-in with your customers',
     description:
       'Increase customer retention, not just for parts and services, but for capital sales as well. When customers use HubOEM, they experience better customer service and their machines run more smoothly, leading them to stick with the OEM.',
-    icon: FingerPrintIcon,
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Handle warranties with ease',
+    description:
+      'Customers can accept and initiate their warranties on the app. When they purchase parts or request for services, we will keep track of what is covered under the warranty, so they can focus on getting their machines functioning.',
+    icon: ShieldCheckIcon,
   },
 ]
 const tiers = [
   {
-    name: 'Base Level',
+    name: 'Starter',
     id: 'tier-freelancer',
     href: '#',
     priceMonthly: '$0',
     description: 'The essentials to provide documentation access for your customers.',
-    features: ['Documents-only', 'Up to 50 licenses', 'No analytics', '48-hour+ support response time'],
+    features: ['Up to 50 licenses', 'Documents-only', 'No analytics', '48-hour+ support response time'],
     mostPopular: false,
   },
   {
-    name: 'Startup',
+    name: 'Basic',
     id: 'tier-startup',
     href: '#',
     priceMonthly: '$1',
@@ -154,22 +165,19 @@ const faqs = [
 ]
 const footerNavigation = {
   solutions: [
-    { name: 'Hosting', href: '#' },
-    { name: 'Data Services', href: '#' },
-    { name: 'Uptime Monitoring', href: '#' },
-    { name: 'Enterprise Services', href: '#' },
+    { name: 'Parts', href: '#' },
+    { name: 'Documents', href: '#' },
+    { name: 'Services', href: '#' },
   ],
   support: [
+    { name: 'Demonstration', href: '#' },
     { name: 'Pricing', href: '#' },
     { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
     { name: 'API Reference', href: '#' },
   ],
   company: [
     { name: 'About', href: '#' },
     { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
     { name: 'Partners', href: '#' },
   ],
   legal: [
@@ -196,7 +204,7 @@ function App() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src={LogoImg}
                 alt=""
               />
             </a>
@@ -232,7 +240,7 @@ function App() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src={LogoImg}
                   alt=""
                 />
               </a>
@@ -280,7 +288,7 @@ function App() {
             aria-hidden="true"
           >
             <div
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#5ED797] to-[#7FA4E7] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
               style={{
                 clipPath:
                   'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -302,7 +310,7 @@ function App() {
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
                     href="#signup-section"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
                   >
                     Get started
                   </a>
@@ -314,7 +322,7 @@ function App() {
               <div className="mt-16 flow-root sm:mt-24">
                 <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                   <img
-                    src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                    src={OrderingDashboardImg}
                     alt="App screenshot"
                     width={2432}
                     height={1442}
@@ -329,7 +337,7 @@ function App() {
             aria-hidden="true"
           >
             <div
-              className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+              className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#5ED797] to-[#7FA4E7] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
               style={{
                 clipPath:
                   'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -382,7 +390,7 @@ function App() {
               <span className="hidden md:inline">
                 Transistor saves up to $40,000 per year, per employee by working with us.
               </span>
-              <a href="#" className="font-semibold text-indigo-600">
+              <a href="#" className="font-semibold text-blue-500">
                 <span className="absolute inset-0" aria-hidden="true" /> Read our case study{' '}
                 <span aria-hidden="true">&rarr;</span>
               </a>
@@ -393,7 +401,7 @@ function App() {
         {/* Feature section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 id="features-section" className="text-base font-semibold leading-7 text-indigo-600">Deploy quickly</h2>
+            <h2 id="features-section" className="text-base font-semibold leading-7 text-blue-500">Deploy quickly</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Everything you need to manage your aftermarket business
             </p>
@@ -406,7 +414,7 @@ function App() {
               {features.map((feature) => (
                 <div key={feature.name} className="relative pl-16">
                   <dt className="text-base font-semibold leading-7 text-gray-900">
-                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500">
                       <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                     </div>
                     {feature.name}
@@ -423,13 +431,13 @@ function App() {
           <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
             <img
               className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
-              src="https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80"
+              src={AutomationImg}
               alt=""
             />
             <div className="absolute inset-0 bg-gray-900/90 mix-blend-multiply" />
             <div className="absolute -left-80 -top-56 transform-gpu blur-3xl" aria-hidden="true">
               <div
-                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-[0.45]"
+                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#5ED797] to-[#7FA4E7] opacity-[0.45]"
                 style={{
                   clipPath:
                     'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -441,7 +449,7 @@ function App() {
               aria-hidden="true"
             >
               <div
-                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#ff4694] to-[#776fff] opacity-25"
+                className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#5ED797] to-[#7FA4E7] opacity-25"
                 style={{
                   clipPath:
                     'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -449,7 +457,7 @@ function App() {
               />
             </div>
             <div className="relative mx-auto max-w-2xl lg:mx-0">
-              <img className="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" />
+              {/* <img className="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" /> */}
               <figure>
                 <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
                   <p>
@@ -469,7 +477,7 @@ function App() {
         <div className="py-24 sm:pt-48">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
-              <h2 id="pricing-section" className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2>
+              <h2 id="pricing-section" className="text-base font-semibold leading-7 text-blue-500">Pricing</h2>
               <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                 Pricing plans for teams of&nbsp;all&nbsp;sizes
               </p>
@@ -494,27 +502,31 @@ function App() {
                       <h3
                         id={tier.id}
                         className={classNames(
-                          tier.mostPopular ? 'text-indigo-600' : 'text-gray-900',
+                          tier.mostPopular ? 'text-blue-500' : 'text-gray-900',
                           'text-lg font-semibold leading-8'
                         )}
                       >
-                        {tier.name}
+                        {tier.name === 'Enterprise' ? 'Enterprise' : tier.name}
                       </h3>
                       {tier.mostPopular ? (
-                        <p className="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-indigo-600">
+                        <p className="rounded-full bg-blue-500/10 px-2.5 py-1 text-xs font-semibold leading-5 text-blue-500">
                           Most popular
                         </p>
                       ) : null}
                     </div>
                     <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
                     <p className="mt-6 flex items-baseline gap-x-1">
-                      <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.priceMonthly}</span>
-                      <span className="text-sm font-semibold leading-6 text-gray-600">/machine</span>
+                      <span className="sm:text-2xl text-xl font-bold tracking-tight text-gray-900">
+                        {tier.name === 'Enterprise' ? 'Request for Quote' : tier.priceMonthly}
+                      </span>
+                      <span className="text-sm font-semibold leading-6 text-gray-600">
+                        {tier.name === 'Enterprise' ? '' : '/machine'}
+                      </span>
                     </p>
                     <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
                       {tier.features.map((feature) => (
                         <li key={feature} className="flex gap-x-3">
-                          <CheckIcon className="h-6 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                          <CheckIcon className="h-6 w-5 flex-none text-blue-500" aria-hidden="true" />
                           {feature}
                         </li>
                       ))}
@@ -525,9 +537,9 @@ function App() {
                     aria-describedby={tier.id}
                     className={classNames(
                       tier.mostPopular
-                        ? 'bg-indigo-600 text-white shadow-sm hover:bg-indigo-500'
-                        : 'text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300',
-                      'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+                        ? 'bg-blue-500 text-white shadow-sm hover:bg-blue-400'
+                        : 'text-blue-500 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300',
+                      'mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500'
                     )}
                   >
                     Buy plan
@@ -560,7 +572,7 @@ function App() {
             aria-hidden="true"
           >
             <div
-              className="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-25"
+              className="aspect-[1108/632] w-[69.25rem] flex-none bg-gradient-to-r from-[#5ED797] to-[#7FA4E7] opacity-25"
               style={{
                 clipPath:
                   'polygon(73.6% 48.6%, 91.7% 88.5%, 100% 53.9%, 97.4% 18.1%, 92.5% 15.4%, 75.7% 36.3%, 55.3% 52.8%, 46.5% 50.9%, 45% 37.4%, 50.3% 13.1%, 21.3% 36.2%, 0.1% 0.1%, 5.4% 49.1%, 21.4% 36.4%, 58.9% 100%, 73.6% 48.6%)',
@@ -574,19 +586,18 @@ function App() {
               Start using our app today.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-              Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur
-              commodo do ea.
+              The time between "getting started" and starting is very minimal. Reach out today to see about a demo, a trial, or just getting straight to it!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
               >
                 Get started
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+              {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
           <div
@@ -594,7 +605,7 @@ function App() {
             aria-hidden="true"
           >
             <div
-              className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+              className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#5ED797] to-[#7FA4E7] opacity-30"
               style={{
                 clipPath:
                   'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -616,7 +627,7 @@ function App() {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <img
               className="h-7"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              src={LogoImg}
               alt="Company name"
             />
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
