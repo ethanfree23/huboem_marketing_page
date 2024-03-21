@@ -2,7 +2,7 @@ import LogoImg from '../img/logo.png'
 
 const footerNavigation = {
     solutions: [
-      { name: 'Parts', href: '#' },
+      { name: 'Parts', href: '/parts' },
       { name: 'Documents', href: '#' },
       { name: 'Services', href: '#' },
     ],

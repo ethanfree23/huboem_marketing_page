@@ -1,4 +1,9 @@
-function Parts () {
+function Parts() {
+    return (
+        <>
+        
+        </>
+    )
 
 }
 
