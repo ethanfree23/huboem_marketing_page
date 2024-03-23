@@ -1,26 +1,27 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Header from '../src/components/Header.js'
+import Header from './components/Header.js'
 import Footer from './components/Footer.js'
+import Login from './components/Login.js'
 
-import Homepage from '../src/pages/Homepage.js'
+import Homepage from './pages/Homepage.js'
 
-import Documents from '../src/pages/Solutions/Documents.js'
-import Parts from '../src/pages/Solutions/Parts.js'
-import Services from '../src/pages/Solutions/Services.js'
+import Documents from './pages/Solutions/Documents.js'
+import Parts from './pages/Solutions/Parts.js'
+import Services from './pages/Solutions/Services.js'
 
 import Demonstration from './pages/Support/Demonstration.js'
-import Pricing from '../src/pages/Support/Pricing.js'
-import Documentation from '../src/pages/Support/Documentation.js'
-import ApiReference from '../src/pages/Support/API_Reference.js'
+import Pricing from './pages/Support/Pricing.js'
+import Documentation from './pages/Support/Documentation.js'
+import ApiReference from './pages/Support/API_Reference.js'
 
-import About from '../src/pages/Company/About.js'
-import Blog from '../src/pages/Company/Blog.js'
-import Partners from '../src/pages/Company/Partners.js'
+import About from './pages/Company/About.js'
+import Blog from './pages/Company/Blog.js'
+import Partners from './pages/Company/Partners.js'
 
-import Claim from '../src/pages/Legal/Claim.js'
-import Privacy from '../src/pages/Legal/Privacy.js'
+import Claim from './pages/Legal/Claim.js'
+import Privacy from './pages/Legal/Privacy.js'
 import Terms from './pages/Legal/Terms.js'
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
 
         <Route path="/" element={<Homepage />} />
         <Route path="/Homepage" element={<Homepage />} />
+        <Route path="/Login" element={<Login />} />
 
         {/* Footer - Solutions */}
         <Route path="/Parts" element={<Parts />} />

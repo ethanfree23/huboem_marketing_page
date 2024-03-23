@@ -3,24 +3,24 @@ import LogoImg from '../img/logo.png'
 const footerNavigation = {
     solutions: [
       { name: 'Parts', href: '/parts' },
-      { name: 'Documents', href: '#' },
-      { name: 'Services', href: '#' },
+      { name: 'Documents', href: '/Documents' },
+      { name: 'Services', href: '/Services' },
     ],
     support: [
-      { name: 'Demonstration', href: '#' },
-      { name: 'Pricing', href: '#' },
-      { name: 'Documentation', href: '#' },
-      { name: 'API Reference', href: '#' },
+      { name: 'Demonstration', href: '/Demonstration' },
+      { name: 'Pricing', href: '/Pricing' },
+      { name: 'Documentation', href: '/Documentation' },
+      { name: 'API Reference', href: '/Api_Reference' },
     ],
     company: [
-      { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Partners', href: '#' },
+      { name: 'About', href: '/About' },
+      { name: 'Blog', href: '/Blog' },
+      { name: 'Partners', href: '/Partners' },
     ],
     legal: [
-      { name: 'Claim', href: '#' },
-      { name: 'Privacy', href: '#' },
-      { name: 'Terms', href: '#' },
+      { name: 'Claim', href: '/Claim' },
+      { name: 'Privacy', href: '/Privacy' },
+      { name: 'Terms', href: '/Terms' },
     ],
   }
 
