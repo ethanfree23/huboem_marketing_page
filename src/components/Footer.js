@@ -44,7 +44,7 @@ function Footer() {
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Solutions</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <ul className="mt-6 space-y-4">
                                     {footerNavigation.solutions.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
@@ -56,7 +56,7 @@ function Footer() {
                             </div>
                             <div className="mt-10 md:mt-0">
                                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Support</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <ul className="mt-6 space-y-4">
                                     {footerNavigation.support.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
@@ -70,7 +70,7 @@ function Footer() {
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
                                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <ul className="mt-6 space-y-4">
                                     {footerNavigation.company.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
@@ -82,7 +82,7 @@ function Footer() {
                             </div>
                             <div className="mt-10 md:mt-0">
                                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <ul className="mt-6 space-y-4">
                                     {footerNavigation.legal.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
