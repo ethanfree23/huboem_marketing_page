@@ -6,7 +6,7 @@ import {
     LockClosedIcon,
     ShieldCheckIcon,
     CloudIcon,
-  } from '@heroicons/react/24/outline'
+} from '@heroicons/react/24/outline'
 import AutomationImg from '../img/automation.jpg'
 import OrderingDashboardImg from '../img/orderingDashboard.png'
 import DelLogo from '../img/logoDel.png'
@@ -18,148 +18,148 @@ import CircleBreweryLogo from '../img/logoCircleBrewery.png'
 
 const features = [
     {
-      name: 'All in one place',
-      description:
-        'HubOEM allows your customers to view manuals and warranties, schedule service, and order parts, for all the equipment in their facility. They can perform these critical maintenance tasks from the convenience of their laptop, tablet or mobile device.',
-      icon: CloudIcon,
+        name: 'All in one place',
+        description:
+            'HubOEM allows your customers to view manuals and warranties, schedule service, and order parts, for all the equipment in their facility. They can perform these critical maintenance tasks from the convenience of their laptop, tablet or mobile device.',
+        icon: CloudIcon,
     },
     {
-      name: 'Drive parts sales',
-      description:
-        'HubOEM pulls wear parts data and customer data to create timely, targeted order prompts. By streamlining the ordering process, HubOEM can also drive increased ordering in key wear components. A simplified ordering mechanism can drive 40%+ sales increases for some products!',
-      icon: ArrowTrendingUpIcon,
+        name: 'Drive parts sales',
+        description:
+            'HubOEM pulls wear parts data and customer data to create timely, targeted order prompts. By streamlining the ordering process, HubOEM can also drive increased ordering in key wear components. A simplified ordering mechanism can drive 40%+ sales increases for some products!',
+        icon: ArrowTrendingUpIcon,
     },
     {
-      name: 'Handle service requests',
-      description:
-        'Customers can request for services through the app, and can send messages, photos, videos, and other files to help the service team adequately prepare for the visit.',
-      icon: HandRaisedIcon,
+        name: 'Handle service requests',
+        description:
+            'Customers can request for services through the app, and can send messages, photos, videos, and other files to help the service team adequately prepare for the visit.',
+        icon: HandRaisedIcon,
     },
     {
-      name: 'Gain insight with analytics',
-      description:
-        'In their May 6th issue, The Economist referred to Data as the world’s most valuable commodity. Our team of packaging industry experts and data scientists uses your historical sales information to find patterns and trends to help you determine how best to price your parts and services to maximize your revenue.',
-      icon: MagnifyingGlassIcon,
+        name: 'Gain insight with analytics',
+        description:
+            'In their May 6th issue, The Economist referred to Data as the world’s most valuable commodity. Our team of packaging industry experts and data scientists uses your historical sales information to find patterns and trends to help you determine how best to price your parts and services to maximize your revenue.',
+        icon: MagnifyingGlassIcon,
     },
     {
-      name: 'Create lock-in with your customers',
-      description:
-        'Increase customer retention, not just for parts and services, but for capital sales as well. When customers use HubOEM, they experience better customer service and their machines run more smoothly, leading them to stick with the OEM.',
-      icon: LockClosedIcon,
+        name: 'Create lock-in with your customers',
+        description:
+            'Increase customer retention, not just for parts and services, but for capital sales as well. When customers use HubOEM, they experience better customer service and their machines run more smoothly, leading them to stick with the OEM.',
+        icon: LockClosedIcon,
     },
     {
-      name: 'Handle warranties with ease',
-      description:
-        'Customers can accept and initiate their warranties on the app. When they purchase parts or request for services, we will keep track of what is covered under the warranty, so they can focus on getting their machines functioning.',
-      icon: ShieldCheckIcon,
+        name: 'Handle warranties with ease',
+        description:
+            'Customers can accept and initiate their warranties on the app. When they purchase parts or request for services, we will keep track of what is covered under the warranty, so they can focus on getting their machines functioning.',
+        icon: ShieldCheckIcon,
     },
-  ]
-  const tiers = [
+]
+const tiers = [
     {
-      name: 'Starter',
-      id: 'tier-freelancer',
-      href: '#',
-      priceMonthly: '$0',
-      description: 'The essentials to provide documentation access for your customers.',
-      features: ['Up to 50 licenses', 'Documents-only', 'No analytics', '48-hour+ support response time'],
-      mostPopular: false,
-    },
-    {
-      name: 'Basic',
-      id: 'tier-startup',
-      href: '#',
-      priceMonthly: '$1',
-      description: 'A plan that scales with your rapidly growing business.',
-      features: [
-        'Ordering capabilities',
-        'Analytics and reporting',
-        '24-hour support response time',
-        'Recurring order automation capability',
-      ],
-      mostPopular: true,
+        name: 'Starter',
+        id: 'tier-freelancer',
+        href: '#',
+        priceMonthly: '$0',
+        description: 'The essentials to provide documentation access for your customers.',
+        features: ['Up to 50 licenses', 'Documents-only', 'No analytics', '48hr+ support response time'],
+        mostPopular: false,
     },
     {
-      name: 'Enterprise',
-      id: 'tier-enterprise',
-      href: '#',
-      priceMonthly: '?',
-      description: 'Dedicated support and infrastructure for your company.',
-      features: [
-        'Unlimited access to each machine',
-        'Unlimited advanced features',
-        'Advanced analytics',
-        '1-hour, dedicated support response time',
-        'Free integrations',
-      ],
-      mostPopular: false,
-    },
-  ]
-  const faqs = [
-    {
-      id: 1,
-      question: "What size company is best for this application?",
-      answer:
-        "We work with a wide variety of OEMs from startups putting their first handful of machines into the field to established industry leaders with thousands of machines in their install base.",
+        name: 'Basic',
+        id: 'tier-startup',
+        href: '#',
+        priceMonthly: '$1',
+        description: 'A plan that scales with your rapidly growing business.',
+        features: [
+            'Ordering capabilities',
+            'Analytics and reporting',
+            '24hr support response time',
+            'Recurring order automation capability',
+        ],
+        mostPopular: true,
     },
     {
-      id: 2,
-      question: "What if we already have a store on our website?",
-      answer:
-        "We aren’t afraid of a little competition! Your website store probably did not completely eliminate orders by phone and email, HubOEM is intended to work in concert with your other sales channels to drive after sales revenue growth.",
+        name: 'Enterprise',
+        id: 'tier-enterprise',
+        href: '#',
+        priceMonthly: '?',
+        description: 'Dedicated support and infrastructure for your company.',
+        features: [
+            'Unlimited access to each machine',
+            'Unlimited advanced features',
+            'Advanced analytics',
+            '1hr, dedicated support response time',
+            'Free integrations',
+        ],
+        mostPopular: false,
+    },
+]
+const faqs = [
+    {
+        id: 1,
+        question: "What size company is best for this application?",
+        answer:
+            "We work with a wide variety of OEMs from startups putting their first handful of machines into the field to established industry leaders with thousands of machines in their install base.",
     },
     {
-      id: 3,
-      question: "Our machines are all custom built, will this solution still work for us?",
-      answer:
-        "Yes! This is exactly the problem HubOEM was designed to solve. Parts lists and manuals can be tracked at the machine specific/serial number level and tailored to each individual install. In fact, we now offer an integration that allows your to export your assembly drawings right from SolidWorks or other design software and we can pull all your individual parts directly into our system.",
+        id: 2,
+        question: "What if we already have a store on our website?",
+        answer:
+            "We aren’t afraid of a little competition! Your website store probably did not completely eliminate orders by phone and email, HubOEM is intended to work in concert with your other sales channels to drive after sales revenue growth.",
     },
     {
-      id: 4,
-      question: "We like to be the main point of contact with our customers. Will this application facilitate direct communication?",
-      answer:
-        "If you are already using email and social media to interact with your customers, then this is really just another tool in that toolbox. Your machine’s view will still show your logo and all POs and messages go right to you.",
+        id: 3,
+        question: "Our machines are all custom built, will this solution still work for us?",
+        answer:
+            "Yes! This is exactly the problem HubOEM was designed to solve. Parts lists and manuals can be tracked at the machine specific/serial number level and tailored to each individual install. In fact, we now offer an integration that allows your to export your assembly drawings right from SolidWorks or other design software and we can pull all your individual parts directly into our system.",
     },
     {
-      id: 5,
-      question: "We already have a CRM, how is this any different?",
-      answer:
-        "HubOEM is NOT a CRM. It is a customer service platform to better support your existing install base. In fact, we offer easy integration with many of the leading CRM providers to easily and seamlessly manage your customer data.",
+        id: 4,
+        question: "We like to be the main point of contact with our customers. Will this application facilitate direct communication?",
+        answer:
+            "If you are already using email and social media to interact with your customers, then this is really just another tool in that toolbox. Your machine’s view will still show your logo and all POs and messages go right to you.",
     },
     {
-      id: 6,
-      question: "We sell plenty of parts already, why should we change what works?",
-      answer:
-        "Horses could get you from one place to another, but cars made it faster, easier and more reliable. HubOEM clients consistently sell more parts with less effort on the part of their aftersale team.",
+        id: 5,
+        question: "We already have a CRM, how is this any different?",
+        answer:
+            "HubOEM is NOT a CRM. It is a customer service platform to better support your existing install base. In fact, we offer easy integration with many of the leading CRM providers to easily and seamlessly manage your customer data.",
     },
     {
-      id: 7,
-      question: "Our customers are large public companies. How do I know they will be open to using your product?",
-      answer:
-        "HubOEM is already working with large consumer-facing brands",
+        id: 6,
+        question: "We sell plenty of parts already, why should we change what works?",
+        answer:
+            "Horses could get you from one place to another, but cars made it faster, easier and more reliable. HubOEM clients consistently sell more parts with less effort on the part of their aftersale team.",
     },
     {
-      id: 8,
-      question: "Our machines have been in the field forever?",
-      answer:
-        "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and services and assess opportunities for new equipment sales!",
+        id: 7,
+        question: "Our customers are large public companies. How do I know they will be open to using your product?",
+        answer:
+            "HubOEM is already working with large consumer-facing brands",
     },
     {
-      id: 9,
-      question: "Our machines do not require any wear part replacements. How does HubOEM add value?",
-      answer:
-        "HubOEM provides a centralized point for viewing manuals and documentation as well as service requests.",
+        id: 8,
+        question: "Our machines have been in the field forever?",
+        answer:
+            "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and services and assess opportunities for new equipment sales!",
     },
     {
-      id: 10,
-      question: "Does HubOEM have API capabilities?",
-      answer:
-        "Yes, HubOEM has API integrations for easy connection to many common enterprise applications.",
+        id: 9,
+        question: "Our machines do not require any wear part replacements. How does HubOEM add value?",
+        answer:
+            "HubOEM provides a centralized point for viewing manuals and documentation as well as service requests.",
     },
-  ]
-  
-  function classNames(...classes) {
+    {
+        id: 10,
+        question: "Does HubOEM have API capabilities?",
+        answer:
+            "Yes, HubOEM has API integrations for easy connection to many common enterprise applications.",
+    },
+]
+
+function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
-  }
+}
 
 function Homepage() {
     return (
@@ -400,6 +400,7 @@ function Homepage() {
                                         </div>
                                         <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
                                         <p className="mt-6 flex items-baseline gap-x-1">
+                                            {/* <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span> */}
                                             <span className="sm:text-2xl text-xl font-bold tracking-tight text-gray-900">
                                                 {tier.name === 'Enterprise' ? 'Request for Quote' : tier.priceMonthly}
                                             </span>

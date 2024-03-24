@@ -8,26 +8,25 @@ const frequencies = [
 ]
 const tiers = [
   {
-    name: 'Freelancer',
-    id: 'tier-freelancer',
+    name: 'Starter',
+    id: 'tier-starter',
     href: '#',
-    price: { monthly: '$15', annually: '$144' },
-    description: 'The essentials to provide your best work for clients.',
-    features: ['5 products', 'Up to 1,000 subscribers', 'Basic analytics', '48-hour support response time'],
+    price: { monthly: '$0', annually: '$0' },
+    description: 'The essentials to providing an aftermarket portal for your customers.',
+    features: ['Up to 50 licenses', 'Documents-only', 'No analytics', '48 hr+ support response time'],
     mostPopular: false,
   },
   {
-    name: 'Startup',
-    id: 'tier-startup',
+    name: 'Basic',
+    id: 'tier-basic',
     href: '#',
-    price: { monthly: '$30', annually: '$288' },
+    price: { monthly: '$1', annually: '$10' },
     description: 'A plan that scales with your rapidly growing business.',
     features: [
-      '25 products',
-      'Up to 10,000 subscribers',
-      'Advanced analytics',
-      '24-hour support response time',
-      'Marketing automations',
+      'Ordering capabilities',
+      'Analytics and reporting',
+      '24hr support response time',
+      'Recurring order automation capability',
     ],
     mostPopular: true,
   },
@@ -35,15 +34,14 @@ const tiers = [
     name: 'Enterprise',
     id: 'tier-enterprise',
     href: '#',
-    price: { monthly: '$60', annually: '$576' },
+    price: { monthly: 'Request for Quote', annually: 'Request for Quote' },
     description: 'Dedicated support and infrastructure for your company.',
     features: [
-      'Unlimited products',
-      'Unlimited subscribers',
+      'Unlimited access to each machine',
+      'Unlimited advanced features',
       'Advanced analytics',
-      '1-hour, dedicated support response time',
-      'Marketing automations',
-      'Custom reporting tools',
+      '1hr, dedicated support response time',
+      'Free integrations',
     ],
     mostPopular: false,
   },
@@ -62,11 +60,11 @@ function Pricing() {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2>
           <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Pricing plans for teams of&nbsp;all&nbsp;sizes
+            Pricing plans for companies of&nbsp;all&nbsp;sizes
           </p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-          Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer
+          Choose an affordable plan that’s packed with the features for engaging your audience, creating customer
           loyalty, and driving sales.
         </p>
         <div className="mt-16 flex justify-center">
@@ -119,8 +117,16 @@ function Pricing() {
               </div>
               <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
               <p className="mt-6 flex items-baseline gap-x-1">
-                <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
-                <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
+                {tier.price[frequency.value] === 'Request for Quote' ? (
+                  <span className="text-3xl font-bold tracking-tight text-gray-900">Request for Quote</span>
+                ) : (
+                  <>
+                    <span className="text-4xl font-bold tracking-tight text-gray-900">
+                      {tier.price[frequency.value]}
+                    </span>
+                    <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
+                  </>
+                )}
               </p>
               <a
                 href={tier.href}
@@ -149,6 +155,5 @@ function Pricing() {
     </div>
   )
 }
-
 
 export default Pricing;

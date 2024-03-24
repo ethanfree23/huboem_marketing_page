@@ -9,8 +9,8 @@ const footerNavigation = {
     support: [
       { name: 'Demonstration', href: '/Demonstration' },
       { name: 'Pricing', href: '/Pricing' },
-      { name: 'Documentation', href: '/Documentation' },
-      { name: 'API Reference', href: '/Api_Reference' },
+    //   { name: 'Documentation', href: '/Documentation' },
+    //   { name: 'API Reference', href: '/Api_Reference' },
     ],
     company: [
       { name: 'About', href: '/About' },
@@ -26,7 +26,7 @@ const footerNavigation = {
 
 function Footer() {
     return (
-        <div className="mx-auto mt-32 max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto lg:mt-8 max-w-7xl px-6 lg:px-8">
             <footer
                 aria-labelledby="footer-heading"
                 className="relative border-t border-gray-900/10 py-24 sm:mt-56 sm:py-32"
