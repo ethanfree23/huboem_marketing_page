@@ -16,7 +16,6 @@ const posts = [
                 'https://media.licdn.com/dms/image/C5603AQHbuSqS2VxgMg/profile-displayphoto-shrink_400_400/0/1517793948556?e=1717027200&v=beta&t=OpyXNZLecwINFg7-uIrIEPBmKuEZd3tBhpKMTM0b6yc',
         },
     },
-    // More posts...
 ]
 
 function Blog() {
