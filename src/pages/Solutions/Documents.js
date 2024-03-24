@@ -1,24 +1,19 @@
+import documentOne from '../../img/documentsOne.jpeg'
+
 const features = [
     {
-        name: 'Adventure-ready',
+        name: 'Quick access',
         description:
-            'The Drawstring Canister is water and tear resistant with durable canvas construction. This bag holds up to the demands of daily use while keeping your snacks secure.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-03.jpg',
-        imageAlt: 'Printed photo of bag being tossed into the sky on top of grass.',
+            'This guy was a slut for the H.',
+        imageSrc: documentOne,
+        imageAlt: 'Einstein being a HubLuver.',
     },
     {
-        name: 'Minimal and clean',
+        name: 'Froget about losing docs',
         description:
-            "Everything you need, nothing you don't. This bag has the simple, contemporary design that enables you to tell everyone you know about how essentialism is the only rational way to live life.",
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-01.jpg',
-        imageAlt: 'Double stitched black canvas hook loop.',
-    },
-    {
-        name: 'Organized',
-        description:
-            'Never lose your snacks again with our patent-pending snack stash pocket system. With dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new levels of efficiency and convenience.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-02.jpg',
-        imageAlt: 'Black canvas body with chrome zipper and key ring.',
+            'No longer will there be an issue finding the information you need for your organization.',
+        imageSrc: 'https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?auto=compress&cs=tinysrgb&w=600',
+        imageAlt: 'Person finding stuff.',
     },
 ]
 
@@ -28,11 +23,10 @@ function Documents() {
             <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div className="max-w-3xl">
-                        <h2 className="font-semibold text-gray-500">Drawstring Canister</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Use it your way</p>
+                        <h2 className="font-semibold text-gray-500">Documents</h2>
+                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Information</p>
                         <p className="mt-4 text-gray-500">
-                            The Drawstring Canister comes with multiple strap and handle options to adapt throughout your day.
-                            Shoulder sling it, backpack it, or handy carry it.
+                            Sometimes, a quick glance helps avoid wasting time reworking. But accessing the information can cost even more time. Now, easily scan the qr code and get the information you need.
                         </p>
                     </div>
 

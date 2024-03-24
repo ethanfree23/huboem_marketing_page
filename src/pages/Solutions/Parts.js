@@ -1,24 +1,13 @@
+import { Profiler } from 'react';
+import PartsOne from '../../img/partsOne.jpg';
+
 const features = [
     {
-        name: 'Adventure-ready',
+        name: 'Order serial-specific parts',
         description:
-            'The Drawstring Canister is water and tear resistant with durable canvas construction. This bag holds up to the demands of daily use while keeping your snacks secure.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-03.jpg',
-        imageAlt: 'Printed photo of bag being tossed into the sky on top of grass.',
-    },
-    {
-        name: 'Minimal and clean',
-        description:
-            "Everything you need, nothing you don't. This bag has the simple, contemporary design that enables you to tell everyone you know about how essentialism is the only rational way to live life.",
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-01.jpg',
-        imageAlt: 'Double stitched black canvas hook loop.',
-    },
-    {
-        name: 'Organized',
-        description:
-            'Never lose your snacks again with our patent-pending snack stash pocket system. With dedicated pouches for each of your snacking needs, the Drawstring Canister unlocks new levels of efficiency and convenience.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-04-detail-02.jpg',
-        imageAlt: 'Black canvas body with chrome zipper and key ring.',
+            'From your machine&apos;s profile, easily order spare parts, knowing with full confidence the part you are ordering is the proper fit and generation for your machine.',
+        imageSrc: PartsOne,
+        imageAlt: 'Machine parts.',
     },
 ]
 
@@ -28,11 +17,10 @@ function Parts() {
             <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div className="max-w-3xl">
-                        <h2 className="font-semibold text-gray-500">Drawstring Canister</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Use it your way</p>
+                        <h2 className="font-semibold text-gray-500">Parts</h2>
+                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Repalcements</p>
                         <p className="mt-4 text-gray-500">
-                            The Drawstring Canister comes with multiple strap and handle options to adapt throughout your day.
-                            Shoulder sling it, backpack it, or handy carry it.
+                            Having the right parts on hand before any issues arise is our goal at HubOEM. We want to ensure the plant is going to avoid as much downtime as possible through our parts ordering platform.
                         </p>
                     </div>
 
