@@ -31,30 +31,30 @@ const timeline = [
 const jobOpenings = [
     {
         id: 1,
-        role: 'Full-time designer',
+        role: 'Full-stack developer',
         href: '#',
         description:
-            'Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.',
-        salary: '$75,000 USD',
-        location: 'San Francisco, CA',
+            'We want an intermediate to advanced developer to help maintain our current stack, as well as make small additions based on user feedback.',
+        salary: '$80/hr USD',
+        location: 'Remote, USA',
     },
     {
         id: 2,
-        role: 'Laravel developer',
+        role: 'Sales representative',
         href: '#',
         description:
-            'Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.',
-        salary: '$125,000 USD',
-        location: 'San Francisco, CA',
+            'We are looking for someone with a book of business they can tap into. This is more of a side sales job to accompany your current capital sales work.',
+        salary: '40% commission',
+        location: 'Remote, USA',
     },
     {
         id: 3,
-        role: 'React Native developer',
+        role: 'Board Member',
         href: '#',
         description:
-            'Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.',
-        salary: '$105,000 USD',
-        location: 'San Francisco, CA',
+            'Seeking a 20+ year veteran in the food processing and packaging industry.',
+        salary: '$20,000 USD',
+        location: 'Remote, USA',
     },
 ]
 
@@ -224,20 +224,19 @@ function About() {
                 <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            We approach the workplace as something that adds to our lives and adds value to the world.
+                            We approach aftermarket sales in the same way you approach processing and packaging: automation
                         </h2>
                         <p className="mt-6 text-base leading-7 text-gray-600">
-                            Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non placerat nam arcu.
-                            Cras purus nibh cursus sit eu in id. Integer vel nibh.
+                            Why stop the automation at the capital equipment level? How about we extend this automation to your customers on the aftermarket front. Mordern customers want modern solutions.
                         </p>
                     </div>
                     <div className="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
                         <div className="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-                            <p className="flex-none text-3xl font-bold tracking-tight text-gray-900">250k</p>
+                            <p className="flex-none text-3xl font-bold tracking-tight text-gray-900">20k</p>
                             <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-                                <p className="text-lg font-semibold tracking-tight text-gray-900">Users on the platform</p>
+                                <p className="text-lg font-semibold tracking-tight text-gray-900">Machines on the platform</p>
                                 <p className="mt-2 text-base leading-7 text-gray-600">
-                                    Vel labore deleniti veniam consequuntur sunt nobis.
+                                    We support machines located in nearly every country on the planet.
                                 </p>
                             </div>
                         </div>
@@ -245,10 +244,10 @@ function About() {
                             <p className="flex-none text-3xl font-bold tracking-tight text-white">$8.9 billion</p>
                             <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                                 <p className="text-lg font-semibold tracking-tight text-white">
-                                    We’re proud that our customers have made over $8 billion in total revenue.
+                                    We’re proud that our customers have saved over $8 billion in lost revenue due to downtime.
                                 </p>
                                 <p className="mt-2 text-base leading-7 text-gray-400">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas.
+                                    This is time put back in the economy.
                                 </p>
                             </div>
                         </div>
@@ -257,7 +256,7 @@ function About() {
                             <div className="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                                 <p className="text-lg font-semibold tracking-tight text-white">Transactions this year</p>
                                 <p className="mt-2 text-base leading-7 text-indigo-200">
-                                    Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam ornare.
+                                    Users use the application. Plain and simple. They lovel looking at documents, and ordering parts.
                                 </p>
                             </div>
                         </div>
@@ -272,8 +271,7 @@ function About() {
                                 We’re always looking for awesome people to join us
                             </h2>
                             <p className="mt-6 text-xl leading-8 text-gray-600">
-                                Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est euismod lacus. Est non placerat nam arcu.
-                                Cras purus nibh cursus sit eu in id.
+                                If you have a skillset that can be useful for a software startup, and you have experience and a network within the food processing and packaging industry, please reach out! We offer equity as well as competitive compensation.
                             </p>
                             <img
                                 src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
