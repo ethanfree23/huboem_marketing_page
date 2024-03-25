@@ -5,7 +5,7 @@ const features = [
     {
         name: 'Order serial-specific parts',
         description:
-            'From your machine&apos;s profile, easily order spare parts, knowing with full confidence the part you are ordering is the proper fit and generation for your machine.',
+            "From your machine's profile, easily order spare parts, knowing with full confidence the part you are ordering is the proper fit and generation for your machine.",
         imageSrc: PartsOne,
         imageAlt: 'Machine parts.',
     },

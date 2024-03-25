@@ -24,7 +24,7 @@ function Documents() {
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div className="max-w-3xl">
                         <h2 className="font-semibold text-gray-500">Documents</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Information</p>
+                        <p className="mt-2 text-6xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Information</p>
                         <p className="mt-4 text-gray-500">
                             Sometimes, a quick glance helps avoid wasting time reworking. But accessing the information can cost even more time. Now, easily scan the qr code and get the information you need.
                         </p>
