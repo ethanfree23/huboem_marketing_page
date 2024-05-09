@@ -349,8 +349,8 @@ function Homepage() {
                                     </p>
                                 </blockquote>
                                 <figcaption className="mt-6 text-base text-white">
-                                    <div className="font-semibold">Ron Lussier</div>
-                                    <div className="mt-1">Head of Aftermarket at Phoenix Stretch Wrappers</div>
+                                    <div className="font-semibold">Colleen Jaeger</div>
+                                    <div className="mt-1">Head of Aftermarket at Palmer Beverage Systems</div>
                                 </figcaption>
                             </figure>
                         </div>
