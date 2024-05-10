@@ -1,5 +1,7 @@
-import { Profiler } from 'react';
+// import { Profiler } from 'react';
 import PartsOne from '../../img/partsOne.jpg';
+import PartsTwo from '../../img/partsTwo.jpeg';
+import notification from '../../img/notification.png';
 
 const features = [
     {
@@ -7,6 +9,20 @@ const features = [
         description:
             "From your machine's profile, easily order spare parts, knowing with full confidence the part you are ordering is the proper fit and generation for your machine.",
         imageSrc: PartsOne,
+        imageAlt: 'Machine parts.',
+    },
+    {
+        name: 'Save days worth of down time',
+        description:
+            "Using HubOEM, users experience a 60% decrease in order fullfillment time. That is a 60% decrease in downtime due to part failure.",
+        imageSrc: PartsTwo,
+        imageAlt: 'Machine parts.',
+    },
+    {
+        name: 'Receive notifications based on usage history',
+        description:
+            "Based on how you are ordering parts across your machines, we can help prepare your business for potential risks. A notification can be the difference between the line running and costing money.",
+        imageSrc: notification,
         imageAlt: 'Machine parts.',
     },
 ]
@@ -17,10 +33,11 @@ function Parts() {
             <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div className="max-w-3xl">
-                        <h2 className="font-semibold text-gray-500">Parts</h2>
+                        <h2 className="font-semibold text-gray-500"></h2>
+                        {/* <h2 className="font-semibold text-gray-500">Parts</h2> */}
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Repalcements</p>
                         <p className="mt-4 text-gray-500">
-                            Having the right parts on hand before any issues arise is our goal at HubOEM. We want to ensure the plant is going to avoid as much downtime as possible through our parts ordering platform.
+                            Having the right parts on hand before any issues arise is our goal at HubOEM. We want to ensure the CPG avoids as much downtime as possible through expedient fullfillment, recurring orders, and notifications.
                         </p>
                     </div>
 

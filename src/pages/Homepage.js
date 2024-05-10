@@ -183,10 +183,11 @@ function Homepage() {
                         <div className="mx-auto max-w-7xl px-6 lg:px-8">
                             <div className="mx-auto max-w-2xl text-center">
                                 <h1 id="about-section" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                                    Parts, Service, Documents
+                                    Aftermarket Customer Service Platform
                                 </h1>
                                 <h2 className="text-xl sm:text-2xltracking-tight text-gray-900 sm:text-3xl pt-4">
-                                    Deploy to the cloud with confidence
+                                Parts, Service, Documents. 
+                                {/* <br/> Cloud with confidence. */}
                                 </h2>
                                 <p className="mt-6 text-md sm:text-lg leading-8 text-gray-600">
                                     Boost your customer satisfaction while driving up your high margin revenue all while taking stress off of your parts and service team!
