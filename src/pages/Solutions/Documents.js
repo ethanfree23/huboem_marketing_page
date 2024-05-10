@@ -1,18 +1,20 @@
-import documentOne from '../../img/documentsOne.jpeg'
+import quickAccess from '../../img/quickAccess.webp'
+import forgetting from '../../img/forgetting.webp'
+
 
 const features = [
     {
         name: 'Quick access',
         description:
-            'This guy was a slut for the H.',
-        imageSrc: documentOne,
-        imageAlt: 'Einstein being a HubLuver.',
+            'Rapidly locate the document you need for any machine in your factory, all from one portal.',
+        imageSrc: quickAccess,
+        imageAlt: 'Quick access',
     },
     {
         name: 'Froget about losing docs',
         description:
-            'No longer will there be an issue finding the information you need for your organization.',
-        imageSrc: 'https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?auto=compress&cs=tinysrgb&w=600',
+            "No longer will there be an issue finding the information you need for your organization. It's all right there.",
+        imageSrc: forgetting,
         imageAlt: 'Person finding stuff.',
     },
 ]
@@ -23,7 +25,8 @@ function Documents() {
             <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div className="max-w-3xl">
-                        <h2 className="font-semibold text-gray-500">Documents</h2>
+                        <h2 className="font-semibold text-gray-500"></h2>
+                        {/* <h2 className="font-semibold text-gray-500">Documents</h2> */}
                         <p className="mt-2 text-6xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Information</p>
                         <p className="mt-4 text-gray-500">
                             Sometimes, a quick glance helps avoid wasting time reworking. But accessing the information can cost even more time. Now, easily scan the qr code and get the information you need.
