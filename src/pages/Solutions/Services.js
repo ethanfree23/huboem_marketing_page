@@ -5,7 +5,7 @@ const features = [
     {
         name: 'Schedule services',
         description:
-            'Requesting for services has never been so easy. Simply go to your machine&apos;s Profiler, and select request for service. You can alter the order request to include photos and videos, as well as documents.',
+            "Requesting for services has never been so easy. Simply access the machine's profile and fill out the request form.",
         imageSrc: serviceOne,
         imageAlt: 'Proud, hardworking, white man working on an American machine, helping push industry forward for himself, his family, and his nation.',
     },
@@ -20,7 +20,7 @@ function Services() {
                         <h2 className="font-semibold text-gray-500">Services</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Guidance</p>
                         <p className="mt-4 text-gray-500">
-                            Getting the help you need can mean the difference between getting the job done on time. With HubOEM, you can interface with all your technicians from one platform.
+                            Getting the help you need can make the difference in getting the job done on time. With HubOEM, you can interface with all your technicians from one platform.
                         </p>
                     </div>
 

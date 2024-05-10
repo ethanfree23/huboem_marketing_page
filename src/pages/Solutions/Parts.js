@@ -33,9 +33,9 @@ function Parts() {
             <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div className="max-w-3xl">
-                        <h2 className="font-semibold text-gray-500"></h2>
-                        {/* <h2 className="font-semibold text-gray-500">Parts</h2> */}
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Repalcements</p>
+                        {/* <h2 className="font-semibold text-gray-500"></h2> */}
+                        <h2 className="font-semibold text-gray-500">Parts</h2>
+                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Repalcements and upgrades</p>
                         <p className="mt-4 text-gray-500">
                             Having the right parts on hand before any issues arise is our goal at HubOEM. We want to ensure the CPG avoids as much downtime as possible through expedient fullfillment, recurring orders, and notifications.
                         </p>
