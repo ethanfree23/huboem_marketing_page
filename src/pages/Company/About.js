@@ -2,7 +2,7 @@ const timeline = [
     {
         name: 'First Steps',
         description:
-            'Began working on the software solution.',
+            'Began working on the software solution based on first-hand experience in the OEM industry.',
         date: 'Aug 2020',
         dateTime: '2020-08',
     },
@@ -16,7 +16,7 @@ const timeline = [
     {
         name: 'Released beta',
         description:
-            'Our first OEM came onboard, validating the applications vailidity both functionally and practically.',
+            'Our first offical OEM customer came onboard, validating the applications vailidity both functionally and practically.',
         date: 'May 2023',
         dateTime: '2023-05',
     },
@@ -126,36 +126,71 @@ function About() {
                         <div className="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5">
                             <img
                                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-                                alt="Transistor"
+                                src="https://media.licdn.com/dms/image/D560BAQH6Et8nS0vY7w/company-logo_200_200/0/1699557231129/del_packaging_ltd_logo?e=2147483647&v=beta&t=qvcirycvJd9mw2OKoIZoADj-cqVJxhPdrB6HjQpjO94"
+                                alt="Del Packaging"
                                 width={158}
                                 height={48}
                             />
                             <img
                                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
-                                alt="Reform"
+                                src="https://www.probrewer.com/wp-content/uploads/2018/08/SD-logo-Palmer_Beverage_Badge_Logo_2_BlackRGB.jpg"
+                                alt="Palmer Beverage Systems"
                                 width={158}
                                 height={48}
                             />
                             <img
                                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
-                                alt="Tuple"
+                                src="https://media.licdn.com/dms/image/C4E0BAQG1aMJ8AuMzPQ/company-logo_200_200/0/1630616721227/phoenix_stretch_wrapping_equipment_logo?e=2147483647&v=beta&t=PodB-0Eoj0K4Z-lVoSKRPfcxcDfNXwbWcv6_WOUL7i0"
+                                alt="Phoenix"
                                 width={158}
                                 height={48}
                             />
                             <img
                                 className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
-                                alt="SavvyCal"
+                                src="https://res.cloudinary.com/zoominfo-com/image/upload/w_140,h_140,c_fit/doverco.ca"
+                                alt="Doverco"
                                 width={158}
                                 height={48}
                             />
                             <img
                                 className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                                src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
-                                alt="Statamic"
+                                src="https://media.licdn.com/dms/image/D5612AQEIcgrWfNoJNg/article-cover_image-shrink_720_1280/0/1673197920965?e=2147483647&v=beta&t=Q3aW8jBhMLtI7KIEGgu-PteuZ6Enpv7YIB9UBWnLGyw"
+                                alt="Pepsico"
+                                width={158}
+                                height={48}
+                            />
+                            <img
+                                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                                src="https://mma.prnewswire.com/media/271488/Abbott_Logo.jpg?p=twitter"
+                                alt="Abbott"
+                                width={158}
+                                height={48}
+                            />
+                            <img
+                                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvdyCEKJwf-ah1uSlgUgvM_iW8dSUqrA1PQg&s"
+                                alt="McCormick"
+                                width={158}
+                                height={48}
+                            />
+                            <img
+                                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                                src="https://www.beaconjournal.com/gcdn/presto/2020/09/22/NABJ/fc21f59a-c159-448c-a3f1-e76a9ae137cc-JMSmuckerCo_Primary_Logo.jpg"
+                                alt="Smuckers"
+                                width={158}
+                                height={48}
+                            />
+                            <img
+                                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                                src="https://media.licdn.com/dms/image/C4E0BAQHjQjWHObASeA/company-logo_200_200/0/1631306406245?e=2147483647&v=beta&t=D6PDntwfrVL-JqkuHD_5Em5cErf1QkIT1f8_nZ1dAHc"
+                                alt="Daisy Brand"
+                                width={158}
+                                height={48}
+                            />
+                            <img
+                                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                                src="https://download.logo.wine/logo/Campbell_Soup_Company/Campbell_Soup_Company-Logo.wine.png"
+                                alt="Campbell's"
                                 width={158}
                                 height={48}
                             />
@@ -222,7 +257,7 @@ function About() {
                 </div>
 
                 {/* Stats */}
-                <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+                {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             We approach aftermarket sales in the same way you approach processing and packaging: automation
@@ -262,7 +297,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Content section */}
                 <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
