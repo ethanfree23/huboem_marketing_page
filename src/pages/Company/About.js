@@ -75,7 +75,7 @@ function About() {
                             </h1>
                             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                                 <p className="text-lg leading-8 text-gray-600">
-                                    Years ago, we noticed there was an missing tool in the aftermarket procurement process for CPGs. After experiencing first hand the frustrations of downtime while a part is slowly making its way to the factory, we decided to create the solution ourselves. We are now the largest aftermarket platform for the food processing and packaging industry.
+                                    Years ago, we noticed there was an missing tool in the aftermarket procurement process. After experiencing first hand the frustrations of downtime due to a part slowly making its way to the factory, we decided to create the solution ourselves. We are now one of the largest aftermarket platform for the food processing and packaging industry.
                                 </p>
                             </div>
                             <img
@@ -114,6 +114,7 @@ function About() {
                 </div>
 
                 {/* Logo cloud */}
+                {/* Need to fix the logos! */}
                 <div className="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
                     <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
                         <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">

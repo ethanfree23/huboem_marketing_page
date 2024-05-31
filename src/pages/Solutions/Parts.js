@@ -1,5 +1,5 @@
 // import { Profiler } from 'react';
-import PartsOne from '../../img/partOne.jpeg';
+import PartsOne from '../../img/bottlingPlant.jpg';
 import PartsTwo from '../../img/partTwo.jpeg';
 import notification from '../../img/notification.png';
 
