@@ -24,43 +24,43 @@ function Partners() {
                     <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">
                         <img
                             className="max-h-12 w-full object-contain object-left"
-                            src="https://tailwindui.com/img/logos/tuple-logo-white.svg"
-                            alt="Tuple"
+                            src="https://media.licdn.com/dms/image/D560BAQH6Et8nS0vY7w/company-logo_200_200/0/1699557231129/del_packaging_ltd_logo?e=2147483647&v=beta&t=qvcirycvJd9mw2OKoIZoADj-cqVJxhPdrB6HjQpjO94"
+                            alt="Del Packaging"
                             width={105}
                             height={48}
                         />
                         <img
                             className="max-h-12 w-full object-contain object-left"
-                            src="https://tailwindui.com/img/logos/reform-logo-white.svg"
-                            alt="Reform"
+                            src="https://www.probrewer.com/wp-content/uploads/2018/08/SD-logo-Palmer_Beverage_Badge_Logo_2_BlackRGB.jpg"
+                            alt="Palmer Beverage Systems"
                             width={104}
                             height={48}
                         />
                         <img
                             className="max-h-12 w-full object-contain object-left"
-                            src="https://tailwindui.com/img/logos/savvycal-logo-white.svg"
-                            alt="SavvyCal"
+                            src="https://media.licdn.com/dms/image/C4E0BAQG1aMJ8AuMzPQ/company-logo_200_200/0/1630616721227/phoenix_stretch_wrapping_equipment_logo?e=2147483647&v=beta&t=PodB-0Eoj0K4Z-lVoSKRPfcxcDfNXwbWcv6_WOUL7i0"
+                            alt="Phoenix"
                             width={140}
                             height={48}
                         />
                         <img
                             className="max-h-12 w-full object-contain object-left"
-                            src="https://tailwindui.com/img/logos/laravel-logo-white.svg"
-                            alt="Laravel"
+                            src="https://res.cloudinary.com/zoominfo-com/image/upload/w_140,h_140,c_fit/doverco.ca"
+                            alt="Doverco"
                             width={136}
                             height={48}
                         />
                         <img
                             className="max-h-12 w-full object-contain object-left"
-                            src="https://tailwindui.com/img/logos/transistor-logo-white.svg"
-                            alt="Transistor"
+                            src="https://media.licdn.com/dms/image/D5612AQEIcgrWfNoJNg/article-cover_image-shrink_720_1280/0/1673197920965?e=2147483647&v=beta&t=Q3aW8jBhMLtI7KIEGgu-PteuZ6Enpv7YIB9UBWnLGyw"
+                            alt="Pepsico"
                             width={158}
                             height={48}
                         />
                         <img
                             className="max-h-12 w-full object-contain object-left"
-                            src="https://tailwindui.com/img/logos/statamic-logo-white.svg"
-                            alt="Statamic"
+                            src="https://mma.prnewswire.com/media/271488/Abbott_Logo.jpg?p=twitter"
+                            alt="Abbott"
                             width={147}
                             height={48}
                         />
