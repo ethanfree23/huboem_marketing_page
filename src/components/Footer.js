@@ -80,7 +80,7 @@ function Footer() {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mt-10 md:mt-0">
+                            {/* <div className="mt-10 md:mt-0">
                                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
                                 <ul className="mt-6 space-y-4">
                                     {footerNavigation.legal.map((item) => (
@@ -91,7 +91,7 @@ function Footer() {
                                         </li>
                                     ))}
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
