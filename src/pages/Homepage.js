@@ -9,10 +9,14 @@ import {
 } from '@heroicons/react/24/outline'
 import AutomationImg from '../img/automation.jpg'
 import OrderingDashboardImg from '../img/orderingDashboard.png'
+import HubOem from '../img/HubOem.png'
 import DelLogo from '../img/logoDel.png'
 import MadeWestLogo from '../img/logoMadeWest.png'
-import SchneiderLogo from '../img/logoSchneider.png'
+// import SchneiderLogo from '../img/logoSchneider.png'
+import PhoenixLogo from '../img/phoenixLogo.png'
 import PalmerLogo from '../img/logoPalmer.png'
+import AbbottLogo from '../img/abbottLogo.jpg'
+import DaisyLogo from '../img/daisyLogo.jpg'
 import CircleBreweryLogo from '../img/logoCircleBrewery.png'
 
 
@@ -186,8 +190,8 @@ function Homepage() {
                                     Aftermarket Customer Service Platform
                                 </h1>
                                 <h2 className="text-xl sm:text-2xltracking-tight text-gray-900 sm:text-3xl pt-4">
-                                Parts, Service, Documents. 
-                                {/* <br/> Cloud with confidence. */}
+                                    Parts, Service, Documents.
+                                    {/* <br/> Cloud with confidence. */}
                                 </h2>
                                 <p className="mt-6 text-md sm:text-lg leading-8 text-gray-600">
                                     Boost your customer satisfaction while driving up your high margin revenue all while taking stress off of your parts and service team!
@@ -207,7 +211,7 @@ function Homepage() {
                             <div className="mt-16 flow-root sm:mt-24">
                                 <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                                     <img
-                                        src={OrderingDashboardImg}
+                                        src={HubOem}
                                         alt="App screenshot"
                                         width={2432}
                                         height={1442}
@@ -243,7 +247,7 @@ function Homepage() {
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                            src={SchneiderLogo}
+                            src={PhoenixLogo}
                             alt="Reform"
                             width={158}
                             height={48}
@@ -257,14 +261,14 @@ function Homepage() {
                         />
                         <img
                             className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                            src={MadeWestLogo}
+                            src={AbbottLogo}
                             alt="SavvyCal"
                             width={158}
                             height={48}
                         />
                         <img
                             className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                            src={CircleBreweryLogo}
+                            src={DaisyLogo}
                             alt="Statamic"
                             width={158}
                             height={48}
