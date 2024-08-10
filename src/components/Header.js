@@ -13,7 +13,7 @@ const navigation = [
     { name: 'Pricing', href: 'Pricing' },
     { name: 'FAQ', href: 'FAQs' },
     { name: 'White Papers', href: 'Whitepapers' },
-    { name: 'Sign Up', href: 'https://www.huboem.app', target: '_blank' },]
+    { name: 'Sign In', href: 'https://www.huboem.app', target: '_blank' },]
 
 function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
