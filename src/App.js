@@ -13,7 +13,7 @@ import Services from './pages/Solutions/Services.js'
 
 import Demonstration from './pages/Support/Demonstration.js'
 import Pricing from './pages/Support/Pricing.js'
-import Documentation from './pages/Support/Documentation.js'
+import Whitepapers from './pages/Support/Whitepapers.js'
 import ApiReference from './pages/Support/API_Reference.js'
 
 import About from './pages/Company/About.js'
@@ -44,7 +44,7 @@ function App() {
         {/* Footer - Support */}
         <Route path="/Demonstration" element={<Demonstration />} />
         <Route path="/Pricing" element={<Pricing />} />
-        <Route path="/Documentation" element={<Documentation />} />
+        <Route path="/Whitepapers" element={<Whitepapers />} />
         <Route path="/API_Reference" element={<ApiReference />} />
 
         {/* Footer - Company */}

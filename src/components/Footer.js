@@ -10,7 +10,7 @@ const footerNavigation = {
     support: [
       { name: 'Demonstration', href: '/Demonstration' },
       { name: 'Pricing', href: '/Pricing' },
-    //   { name: 'Documentation', href: '/Documentation' },
+      { name: 'Whitepapers', href: '/Whitepapers' },
     //   { name: 'API Reference', href: '/Api_Reference' },
     ],
     company: [
