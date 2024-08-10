@@ -473,7 +473,7 @@ function Homepage() {
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             Boost your productivity.
                             <br />
-                            Start using our app today.
+                            Start using HubOEM today.
                         </h2>
                         <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
                             The time between "getting started" and starting is very minimal. Reach out today to see about a demo, a trial, or just getting straight to it!
