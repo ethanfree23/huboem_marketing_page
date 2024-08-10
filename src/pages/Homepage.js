@@ -36,7 +36,7 @@ const features = [
     {
         name: 'Handle service requests',
         description:
-            'Customers can request for services through the app, and can send messages, photos, videos, and other files to help the service team adequately prepare for the visit.',
+            'Customers can request service, send messages, photos and videos on a common platform with a common history for faster responses and more effective site visits.',
         icon: HandRaisedIcon,
     },
     {
