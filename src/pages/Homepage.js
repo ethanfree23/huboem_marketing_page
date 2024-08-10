@@ -203,9 +203,7 @@ function Homepage() {
                                     >
                                         Get started
                                     </a>
-                                    {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                    Learn more <span aria-hidden="true">→</span>
-                  </a> */}
+                                
                                 </div>
                             </div>
                             <div className="mt-16 flow-root sm:mt-24">
