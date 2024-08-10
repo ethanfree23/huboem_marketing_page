@@ -7,13 +7,13 @@ import {
 import LogoImg from '../../src/img/logo.png'
 
 const navigation = [
-    { name: 'About', href: 'about-section' },
-    { name: 'Features', href: 'features-section' },
-    { name: 'Testimonials', href: 'testimonials-section' },
-    { name: 'Pricing', href: 'pricing-section' },
-    { name: 'FAQ', href: 'faq-section' },
-    { name: 'White Papers', href: 'whitepapers' },
-    { name: 'Sign Up', href: 'signup-section' },
+    { name: 'About', href: 'About' },
+    // { name: 'Features', href: 'features' },
+    // { name: 'Testimonials', href: 'testimonials' },
+    { name: 'Pricing', href: 'Pricing' },
+    { name: 'FAQ', href: 'FAQs' },
+    { name: 'White Papers', href: 'Whitepapers' },
+    { name: 'Sign Up', href: 'Signup' },
 ]
 
 function Header() {

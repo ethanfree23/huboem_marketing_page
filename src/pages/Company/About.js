@@ -28,35 +28,35 @@ const timeline = [
         dateTime: '2024-04',
     },
 ]
-const jobOpenings = [
-    {
-        id: 1,
-        role: 'Full-stack developer',
-        href: '#',
-        description:
-            'We want an intermediate to advanced developer to help maintain our current stack, as well as make small additions based on user feedback.',
-        salary: '$80/hr USD',
-        location: 'Remote, USA',
-    },
-    {
-        id: 2,
-        role: 'Sales representative',
-        href: '#',
-        description:
-            'We are looking for someone with a book of business they can tap into. This is more of a side sales job to accompany your current capital sales work.',
-        salary: '40% commission',
-        location: 'Remote, USA',
-    },
-    {
-        id: 3,
-        role: 'Board Member',
-        href: '#',
-        description:
-            'Seeking a 20+ year veteran in the food processing and packaging industry.',
-        salary: '$20,000 USD',
-        location: 'Remote, USA',
-    },
-]
+// const jobOpenings = [
+//     {
+//         id: 1,
+//         role: 'Full-stack developer',
+//         href: '#',
+//         description:
+//             'We want an intermediate to advanced developer to help maintain our current stack, as well as make small additions based on user feedback.',
+//         salary: '$80/hr USD',
+//         location: 'Remote, USA',
+//     },
+//     {
+//         id: 2,
+//         role: 'Sales representative',
+//         href: '#',
+//         description:
+//             'We are looking for someone with a book of business they can tap into. This is more of a side sales job to accompany your current capital sales work.',
+//         salary: '40% commission',
+//         location: 'Remote, USA',
+//     },
+//     {
+//         id: 3,
+//         role: 'Board Member',
+//         href: '#',
+//         description:
+//             'Seeking a 20+ year veteran in the food processing and packaging industry.',
+//         salary: '$20,000 USD',
+//         location: 'Remote, USA',
+//     },
+// ]
 
 function About() {
     return (
@@ -300,7 +300,7 @@ function About() {
                 </div> */}
 
                 {/* Content section */}
-                <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+                {/* <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
                     <div className="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
                         <div className="w-full lg:max-w-lg lg:flex-auto">
                             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -350,7 +350,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </main>
         </div>
     )
