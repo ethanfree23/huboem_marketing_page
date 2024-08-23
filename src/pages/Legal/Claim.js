@@ -1,4 +1,8 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import {
+    CloudArrowUpIcon,
+    // LockClosedIcon,
+    // ServerIcon
+} from '@heroicons/react/20/solid'
 
 function Claim() {
     return (
@@ -33,11 +37,10 @@ function Claim() {
                 <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="lg:pr-4">
                         <div className="lg:max-w-lg">
-                            <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
+                            <p className="text-base font-semibold leading-7 text-indigo-600">Legal</p>
+                            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Claims</h1>
                             <p className="mt-6 text-xl leading-8 text-gray-700">
-                                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam
-                                eget aliquam. Quisque id at vitae feugiat egestas.
+                                The content provided on our platform is offered "as-is" and "as available." We are not liable for any inaccuracies, errors, or omissions in the data related to the machines listed on our site. All machine information, including but not limited to bill of materials (BOM), parts, and documents, is provided by the manufacturers and distributors. We do not warrant or guarantee the completeness, accuracy, availability, or reliability of this information.
                             </p>
                         </div>
                     </div>
@@ -53,46 +56,22 @@ function Claim() {
                     <div className="lg:pr-4">
                         <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                             <p>
-                                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                                semper sed amet vitae sed turpis id.
+                                Under no circumstances shall we be held responsible for any direct, indirect, incidental, consequential, or special damages that may arise from the use of our platform. This includes, but is not limited to, any issues related to pricing, availability, or data accuracy. The users of our platform agree that they use the service at their own risk.
                             </p>
                             <ul role="list" className="mt-8 space-y-8 text-gray-600">
                                 <li className="flex gap-x-3">
                                     <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                     <span>
-                                        <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                                        consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                                        blanditiis ratione.
-                                    </span>
-                                </li>
-                                <li className="flex gap-x-3">
-                                    <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                    <span>
-                                        <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                                        ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-                                    </span>
-                                </li>
-                                <li className="flex gap-x-3">
-                                    <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                    <span>
-                                        <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                                        vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                                        <strong className="font-semibold text-gray-900">No Endorsement.</strong> We do not endorse, certify, or guarantee the quality, safety, or legality of any machine, product, or service provided through our platform. Any opinions, advice, statements, offers, or other information or content made available through our platform are those of the respective manufacturers or distributors and not of our company.
                                     </span>
                                 </li>
                             </ul>
                             <p className="mt-8">
-                                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                                By using our platform, you acknowledge that any reliance on the information provided is at your own risk. We strongly recommend that users verify all information with the machine manufacturers or distributors before making any decisions based on the data provided on our platform.
                             </p>
-                            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+                            <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Legal Limitations.</h2>
                             <p className="mt-6">
-                                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                                turpis ipsum eu a sed convallis diam.
+                                These disclaimers and limitations of liability are an essential part of our agreement with you. If any of these terms are found to be unenforceable under applicable law, the remaining terms will still apply to the fullest extent possible.
                             </p>
                         </div>
                     </div>

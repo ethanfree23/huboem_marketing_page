@@ -17,12 +17,10 @@ function Privacy() {
             </div>
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
-                    <p className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Deploy faster</p>
-                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
+                    <p className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Legal</p>
+                    <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Privacy</h1>
                     <p className="mt-6 text-xl leading-8 text-gray-700">
-                        Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-                        aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-                        egestas fringilla sapien.
+                        We value your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of data we collect, how we use it, and the measures we take to safeguard your information.
                     </p>
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -46,9 +44,7 @@ function Privacy() {
                         <figure className="border-l border-indigo-600 pl-8">
                             <blockquote className="text-xl font-semibold leading-8 tracking-tight text-gray-900">
                                 <p>
-                                    “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac
-                                    dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat enim
-                                    tristique.”
+                                    “Your privacy is our priority. We take all necessary steps to ensure that your data is handled with care and respect.”
                                 </p>
                             </blockquote>
                             <figcaption className="mt-8 flex gap-x-4">
@@ -58,54 +54,42 @@ function Privacy() {
                                     className="mt-1 h-10 w-10 flex-none rounded-full bg-gray-50"
                                 />
                                 <div className="text-sm leading-6">
-                                    <div className="font-semibold text-gray-900">Brenna Goyette</div>
-                                    <div className="text-gray-600">@brenna</div>
+                                    <div className="font-semibold text-gray-900">Development Team</div>
+                                    <div className="text-gray-600">@HubOEM_Dev</div>
                                 </div>
                             </figcaption>
                         </figure>
                     </div>
                     <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
                         <p>
-                            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                            vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                            erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                            sed amet vitae sed turpis id.
+                            We collect personal information that you voluntarily provide when you register for an account, purchase a license, or use our services. This may include your name, email address, payment information, and any other information necessary to provide you with access to your machine profiles.
                         </p>
                         <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                                 <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                 <span>
-                                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                                    blanditiis ratione.
-                                </span>
-                            </li>
-                            <li className="flex gap-x-3">
-                                <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-                                <span>
-                                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                                    <strong className="font-semibold text-gray-900">Data Collection.</strong> We may also collect non-personal information such as your IP address, browser type, and usage data to help improve our services and enhance your experience on our platform.
                                 </span>
                             </li>
                             <li className="flex gap-x-3">
                                 <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                 <span>
-                                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                                    <strong className="font-semibold text-gray-900">Data Usage.</strong> The data we collect is used to provide access to your machine profiles, process transactions, send you related information, communicate updates, and improve our platform.
+                                </span>
+                            </li>
+                            <li className="flex gap-x-3">
+                                <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                                <span>
+                                    <strong className="font-semibold text-gray-900">Data Security.</strong> We implement various security measures to maintain the safety of your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure.
                                 </span>
                             </li>
                         </ul>
                         <p className="mt-8">
-                            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                            fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                            adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                            We do not sell, trade, or otherwise transfer your personal information to third parties unless it is necessary to provide our services, comply with legal obligations, or protect our rights.
                         </p>
-                        <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+                        <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Your Rights</h2>
                         <p className="mt-6">
-                            Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                            Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                            tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                            turpis ipsum eu a sed convallis diam.
+                            You have the right to access, correct, or delete your personal information stored on our platform. If you wish to exercise these rights, please contact our support team.
                         </p>
                     </div>
                 </div>

@@ -203,7 +203,6 @@ function Homepage() {
                                     >
                                         Get started
                                     </a>
-                                
                                 </div>
                             </div>
                             <div className="mt-16 flow-root sm:mt-24">
