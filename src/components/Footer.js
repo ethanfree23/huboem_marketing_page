@@ -18,11 +18,11 @@ const footerNavigation = {
       { name: 'Blog', href: '/Blog' },
       { name: 'Partners', href: '/Partners' },
     ],
-    // legal: [
-    //   { name: 'Claim', href: '/Claim' },
-    //   { name: 'Privacy', href: '/Privacy' },
-    //   { name: 'Terms', href: '/Terms' },
-    // ],
+    legal: [
+      { name: 'Claim', href: '/Claim' },
+      { name: 'Privacy', href: '/Privacy' },
+      { name: 'Terms', href: '/Terms' },
+    ],
   }
 
 function Footer() {
