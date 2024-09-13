@@ -90,7 +90,7 @@ function About() {
                 </div>
 
                 {/* Timeline section */}
-                <div className="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
+                {/* <div className="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
                         {timeline.map((item) => (
                             <div key={item.name}>
@@ -112,7 +112,7 @@ function About() {
                             </div>
                         ))}
                     </div>
-                </div>
+                </div> */}
 
                 {/* Logo cloud */}
                 {/* Need to fix the logos! */}

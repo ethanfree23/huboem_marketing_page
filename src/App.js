@@ -14,8 +14,13 @@ import Services from './pages/Solutions/Services.js'
 
 import Demonstration from './pages/Support/Demonstration.js'
 import Pricing from './pages/Support/Pricing.js'
-import Whitepapers from './pages/Support/Whitepapers.js'
 import ApiReference from './pages/Support/API_Reference.js'
+import Whitepapers from './pages/Support/Whitepapers.js'
+
+import WhitepapersCFO from './pages/Support/Whitepapers/whitepapersCFO.js'
+import WhitepapersPareto from './pages/Support/Whitepapers/whitepapersPareto.js'
+import WhitepapersDigging from './pages/Support/Whitepapers/whitepapersDigging.js'
+
 
 import About from './pages/Company/About.js'
 import Blog from './pages/Company/Blog.js'
@@ -47,8 +52,13 @@ function App() {
         {/* Footer - Support */}
         <Route path="/Demonstration" element={<Demonstration />} />
         <Route path="/Pricing" element={<Pricing />} />
-        <Route path="/Whitepapers" element={<Whitepapers />} />
         <Route path="/API_Reference" element={<ApiReference />} />
+
+        {/* Support - Whitepaper */}
+        <Route path="/Whitepapers" element={<Whitepapers />} />
+        <Route path="/Whitepapers/CFO" element={<WhitepapersCFO />} />
+        <Route path="/Whitepapers/Pareto" element={<Whitepapers />} />
+        <Route path="/Whitepapers/Digging_the_Moat" element={<Whitepapers />} />
 
         {/* Footer - Company */}
         <Route path="/About" element={<About />} />
