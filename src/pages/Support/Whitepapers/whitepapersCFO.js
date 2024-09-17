@@ -1,6 +1,7 @@
 import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid';
 
 import imageDowntimeChart from '../../../img/downtime_chart.png'
+import imageEbitda from '../../../img/ebitda.png'
 
 function WhitepapersCFO() {
   return (
@@ -105,7 +106,7 @@ function WhitepapersCFO() {
 
         <figure className="mt-16">
           <img 
-            src={imageDowntimeChart}
+            src={imageEbitda}
             alt="Inventory and risk management in PASDM" 
             className="aspect-video rounded-xl bg-gray-50 object-cover"
           />
