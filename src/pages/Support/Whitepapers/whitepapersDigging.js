@@ -25,16 +25,17 @@ function WhitepapersDigging() {
           inside, but a set of value creating properties so strong, that your competition cannot touch you.
         </p>
 
-        <figure className="mt-10 border-l border-indigo-600 pl-9">
+        {/* <figure className="mt-10 border-l border-indigo-600 pl-9"> */}
+        <figure className="mt-16">
           <img
             src={imageDigging1}
             alt="Historical data and inventory management"
             className="aspect-video rounded-xl bg-gray-50 object-cover"
           />
-          <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+          {/* <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
             <InformationCircleIcon aria-hidden="true" className="mt-0.5 h-5 w-5 flex-none text-gray-300" />
             Effective inventory management through data-driven insights
-          </figcaption>
+          </figcaption> */}
         </figure>
 
         <div className="mt-10 max-w-2xl">
@@ -54,7 +55,8 @@ function WhitepapersDigging() {
             stockouts, shipping delays and overall negative customer experiences.
           </p>
 
-          <figure className="mt-10 border-l border-indigo-600 pl-9">
+          {/* <figure className="mt-10 border-l border-indigo-600 pl-9"> */}
+          <figure className="mt-10">
             <img
               src={imageDigging2}
               alt="Historical data and inventory management"
@@ -87,6 +89,7 @@ function WhitepapersDigging() {
           </p>
 
           <figure className="mt-10 border-l border-indigo-600 pl-9">
+          {/* <figure className="mt-16"> */}
             <blockquote className="font-semibold text-gray-900">
               <p>
                 “Requiring a phone call or site visit for a simple problem that could easily be seen as more

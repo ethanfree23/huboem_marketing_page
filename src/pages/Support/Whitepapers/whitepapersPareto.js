@@ -1,110 +1,119 @@
-import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+// import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid';
+// import imagePareto1 from '../../../img/pareto1.png'
+
+import imagePareto2 from '../../../img/pareto2.png'
 
 function WhitepapersPareto() {
   return (
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</h1>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pareto Priority Index</h1>
         <p className="mt-6 text-xl leading-8">
-          Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-          aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-          egestas fringilla sapien.
+          The data-driven approach to project prioritization.
         </p>
         <div className="mt-10 max-w-2xl">
           <p>
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id.
+            I have spent a lot of my time advising small businesses on process improvement. Most of these companies make consumer goods with a small team. They typically have a deep knowledge and passion for their product but very limited engineering experience. When I suggest the implementation of Lean or Six Sigma I am often met with (at worst) outright resistance or (at best) perplexed stares. There is an unfounded belief in many smaller organizations that Six Sigma is really only for giant companies with engineering staffs and continuous improvement teams.
           </p>
-          <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                blanditiis ratione.
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non
-                deserunt sunt. Qui irure qui lorem cupidatat commodo.
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat
-                auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-              </span>
-            </li>
-          </ul>
-          <p className="mt-8">
-            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-            fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-            adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-          </p>
-          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">From beginner to expert in 3 hours</h2>
           <p className="mt-6">
-            Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-            Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus
-            mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-            ipsum eu a sed convallis diam.
+            One of the smaller companies I worked with gained valuable insight using Six Sigma tools. The customer is a smaller artisan candy producer in the Pacific Northwest. They were pretty much a 100% manual operation. With labor costs rising, they knew that they would need to invest in some process and packaging automation equipment to increase their output.
           </p>
+
           <figure className="mt-10 border-l border-indigo-600 pl-9">
             <blockquote className="font-semibold text-gray-900">
               <p>
-                “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac
-                dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat enim
-                tristique.”
+                "So how should we decide where to focus their automation dollars? Fortunately, there is something in the Six Sigma toolbox for just this sort of situation. It is called the Pareto Priority Index."
               </p>
             </blockquote>
-            <figcaption className="mt-6 flex gap-x-4">
-              <img
-                alt=""
-                src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                className="h-6 w-6 flex-none rounded-full bg-gray-50"
-              />
-              <div className="text-sm leading-6">
-                <strong className="font-semibold text-gray-900">Maria Hill</strong> – Marketing Manager
-              </div>
-            </figcaption>
           </figure>
-          <p className="mt-10">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-          </p>
-        </div>
-        <figure className="mt-16">
-          <img
-            alt=""
-            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
-            className="aspect-video rounded-xl bg-gray-50 object-cover"
-          />
-          <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
-            <InformationCircleIcon aria-hidden="true" className="mt-0.5 h-5 w-5 flex-none text-gray-300" />
-            Faucibus commodo massa rhoncus, volutpat.
-          </figcaption>
-        </figure>
-        <div className="mt-16 max-w-2xl">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Everything you need to get up and running</h2>
+
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Pareto Priority Index (PPI)</h2>
           <p className="mt-6">
-            Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam varius orci dapibus volutpat cras. In
-            amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie.
-            Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat
-            ac. Cras fermentum convallis quam.
+            The Pareto Priority Index (PPI) takes in a project’s savings, its likelihood of being successful, cost of the project, as well as its implementation time. All of these inputs are factored together like in the below formula to give you a single objective metric for comparing projects.
           </p>
-          <p className="mt-8">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
+          <p className="mt-6">
+            <figure className="mt-16">
+              <blockquote className="font-semibold text-gray-900">
+                <img
+                  src={imagePareto2}
+                  alt="Customer service strategy"
+                  className="aspect-video rounded-xl bg-gray-50 object-cover"
+                />
+                <p>
+                  http://sixsigmastudyguide.com/pareto-wisdom-of-solomon/
+                </p>
+              </blockquote>
+            </figure>
+            <br />
+            <strong>PPI = (Savings * Probability of Success) / (Cost * Time for Completion)</strong>
+          </p>
+
+          <table className="table-auto mt-6 w-full text-left text-gray-700">
+            <thead>
+              <tr>
+                <th className="border-b border-gray-300 px-4 py-2">Project</th>
+                <th className="border-b border-gray-300 px-4 py-2">Cost</th>
+                <th className="border-b border-gray-300 px-4 py-2">Completion Time</th>
+                <th className="border-b border-gray-300 px-4 py-2">Probability of Success</th>
+                <th className="border-b border-gray-300 px-4 py-2">Savings</th>
+                <th className="border-b border-gray-300 px-4 py-2">PPI Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border-b border-gray-200 px-4 py-2">Flow Wrapper</td>
+                <td className="border-b border-gray-200 px-4 py-2">$75,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">18 weeks</td>
+                <td className="border-b border-gray-200 px-4 py-2">90%</td>
+                <td className="border-b border-gray-200 px-4 py-2">Est. $600,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">0.400</td>
+              </tr>
+              <tr>
+                <td className="border-b border-gray-200 px-4 py-2">Cooling Tunnel</td>
+                <td className="border-b border-gray-200 px-4 py-2">$35,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">16 weeks</td>
+                <td className="border-b border-gray-200 px-4 py-2">90%</td>
+                <td className="border-b border-gray-200 px-4 py-2">Est. $90,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">0.144</td>
+              </tr>
+              <tr>
+                <td className="border-b border-gray-200 px-4 py-2">Candy Drop Roller</td>
+                <td className="border-b border-gray-200 px-4 py-2">$11,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">22 weeks</td>
+                <td className="border-b border-gray-200 px-4 py-2">95%</td>
+                <td className="border-b border-gray-200 px-4 py-2">Est. $30,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">0.118</td>
+              </tr>
+              <tr>
+                <td className="border-b border-gray-200 px-4 py-2">Chocolate Depositor</td>
+                <td className="border-b border-gray-200 px-4 py-2">$105,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">18 weeks</td>
+                <td className="border-b border-gray-200 px-4 py-2">90%</td>
+                <td className="border-b border-gray-200 px-4 py-2">Est. $700,000</td>
+                <td className="border-b border-gray-200 px-4 py-2">0.333</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Savings</h2>
+          <p className="mt-6">
+            Savings were estimated based on the labor and material savings the project would create during a five-year time window. The service life of the equipment is expected to be longer but if they achieved their sales growth targets, it would most likely be obsolete by then.
+          </p>
+
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Probability of Success</h2>
+          <p className="mt-6">
+            This was estimated based on the complexity of the equipment involved in the project. Highly customized equipment means a much higher risk of late delivery, cost overruns, or other unforeseen issues.
+          </p>
+
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Cost and Time for Completion</h2>
+          <p className="mt-6">
+            All costs associated with the equipment engineering, testing, installation, and support work. Time includes the lead time for equipment delivery, training, and startup time.
           </p>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default WhitepapersPareto;
