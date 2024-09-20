@@ -6,7 +6,7 @@ const posts = [
   {
     id: 1,
     title: 'Missing Piece – Lost Opportunity to Drive Valuation',
-    href: '/Whitepapers/CFO',
+    href: '/Whitepapers-CFO',
     description:
       'Learn how you can drive growth in the valuation of your company through the latest in customer care technology.',
     imageUrl:
@@ -25,7 +25,7 @@ const posts = [
   {
     id: 2,
     title: 'Pareto Priority Index',
-    href: '/whitepapers/Pareto',
+    href: '/whitepapers-Pareto',
     description:
       'Learn how you can drive growth in the valuation of your company through the latest in customer care technology.',
     imageUrl:
@@ -44,7 +44,7 @@ const posts = [
   {
     id: 3,
     title: 'Digging the Moat',
-    href: '/whitepapers/Digging_the_Moat',
+    href: '/whitepapers-Digging_the_Moat',
     description:
       'Its much harder to find a new customer than to keep an old one. Learn how cloud based customer care can help you protect your hard won customer base.',
     imageUrl:

@@ -56,9 +56,9 @@ function App() {
 
         {/* Support - Whitepaper */}
         <Route path="/Whitepapers" element={<Whitepapers />} />
-        <Route path="/Whitepapers/CFO" element={<WhitepapersCFO />} />
-        <Route path="/Whitepapers/Pareto" element={<Whitepapers />} />
-        <Route path="/Whitepapers/Digging_the_Moat" element={<Whitepapers />} />
+        <Route path="/Whitepapers-CFO" element={<WhitepapersCFO />} />
+        <Route path="/Whitepapers-Pareto" element={<WhitepapersPareto />} />
+        <Route path="/Whitepapers-Digging_the_Moat" element={<WhitepapersDigging />} />
 
         {/* Footer - Company */}
         <Route path="/About" element={<About />} />

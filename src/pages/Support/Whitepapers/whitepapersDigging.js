@@ -1,110 +1,131 @@
-import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import { InformationCircleIcon } from '@heroicons/react/20/solid';
+
+import imageDigging1 from '../../../img/digging1.png'
+import imageDigging2 from '../../../img/digging2.png'
+import imageDigging3 from '../../../img/digging3.png'
 
 function WhitepapersDigging() {
   return (
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-        <p className="text-base font-semibold leading-7 text-indigo-600">Introducing</p>
-        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">JavaScript for Beginners</h1>
+        <p className="text-base font-semibold leading-7 text-indigo-600">Introduction</p>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Digging The Moat with HubOEM
+        </h1>
         <p className="mt-6 text-xl leading-8">
-          Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-          aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-          egestas fringilla sapien.
+          The term "economic moat," popularized by Warren Buffett, refers to a business's
+          ability to maintain competitive advantages over its competitors in order to protect its
+          long-term profits and market share. Just like a medieval castle, the moat serves to
+          protect those inside the fortress and their riches from outsiders. I know in recent
+          years the term has sometimes attracted a bad reputation as companies have
+          implemented strategies like “change fees” or complex switching costs to try and lock
+          in customers as a form of “moat”. While these can often have the planned effect of
+          making it harder for current customers to leave, they also damage a company’s ability to attract
+          new customers. The original intent of the moat metaphor was not as a barrier to keep customers
+          inside, but a set of value creating properties so strong, that your competition cannot touch you.
         </p>
-        <div className="mt-10 max-w-2xl">
-          <p>
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id.
-          </p>
-          <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                blanditiis ratione.
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non
-                deserunt sunt. Qui irure qui lorem cupidatat commodo.
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <CheckCircleIcon aria-hidden="true" className="mt-1 h-5 w-5 flex-none text-indigo-600" />
-              <span>
-                <strong className="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat
-                auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-              </span>
-            </li>
-          </ul>
-          <p className="mt-8">
-            Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-            fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-            adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-          </p>
-          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">From beginner to expert in 3 hours</h2>
-          <p className="mt-6">
-            Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-            Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus
-            mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-            ipsum eu a sed convallis diam.
-          </p>
-          <figure className="mt-10 border-l border-indigo-600 pl-9">
-            <blockquote className="font-semibold text-gray-900">
-              <p>
-                “Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac
-                dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat enim
-                tristique.”
-              </p>
-            </blockquote>
-            <figcaption className="mt-6 flex gap-x-4">
-              <img
-                alt=""
-                src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                className="h-6 w-6 flex-none rounded-full bg-gray-50"
-              />
-              <div className="text-sm leading-6">
-                <strong className="font-semibold text-gray-900">Maria Hill</strong> – Marketing Manager
-              </div>
-            </figcaption>
-          </figure>
-          <p className="mt-10">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
-          </p>
-        </div>
-        <figure className="mt-16">
+
+        <figure className="mt-10 border-l border-indigo-600 pl-9">
           <img
-            alt=""
-            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+            src={imageDigging1}
+            alt="Historical data and inventory management"
             className="aspect-video rounded-xl bg-gray-50 object-cover"
           />
           <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
             <InformationCircleIcon aria-hidden="true" className="mt-0.5 h-5 w-5 flex-none text-gray-300" />
-            Faucibus commodo massa rhoncus, volutpat.
+            Effective inventory management through data-driven insights
           </figcaption>
         </figure>
-        <div className="mt-16 max-w-2xl">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Everything you need to get up and running</h2>
+
+        <div className="mt-10 max-w-2xl">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Historical Data</h2>
           <p className="mt-6">
-            Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam varius orci dapibus volutpat cras. In
-            amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie.
-            Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat
-            ac. Cras fermentum convallis quam.
+            Every business school student has read the case study on the mass mailing of targeted coupon
+            programs. When they first came on the scene customers would sometimes comment that it
+            was almost spooky how a conversation about being out of cereal in the morning would result
+            in a coupon for Captain Crunch in the afternoon’s mail. The real reason this is possible however
+            is not magic, but statistics.
           </p>
-          <p className="mt-8">
-            Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-            sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
+
+          <p className="mt-6">
+            For OEMs the most obvious and pressing example relates to managing inventory. Holding an
+            excess of inventory ties up working capital, risks loss or damage, and in many jurisdictions, is
+            actually subject to additional taxes. Alternatively, an understock of critical inventory can lead to
+            stockouts, shipping delays and overall negative customer experiences.
           </p>
+
+          <figure className="mt-10 border-l border-indigo-600 pl-9">
+            <img
+              src={imageDigging2}
+              alt="Historical data and inventory management"
+              className="aspect-video rounded-xl bg-gray-50 object-cover"
+            />
+            <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+              <InformationCircleIcon aria-hidden="true" className="mt-0.5 h-5 w-5 flex-none text-gray-300" />
+              Effective inventory management through data-driven insights
+            </figcaption>
+          </figure>
+
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">EcoSystem</h2>
+          <p className="mt-6">
+            Look at Apple, how their products both hardware and software seamlessly integrate together. If
+            you have an iPhone, an iPad, and a Macbook, and are in the market for a smart watch, what are
+            the odds you buy a Samsung? This integrated ecosystem of products has allowed Apple to
+            grow from a company on life support to the first company to reach a Trillion-dollar valuation.
+          </p>
+          <p className="mt-6">
+            What do you do if you only have one product or you are working in a B2B context? One obvious
+            choice is making sure your product integrates easily with your customers’ existing ecosystem(s).
+            To do otherwise will often eliminate you completely from consideration in future projects.
+          </p>
+
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Customer Service</h2>
+          <p className="mt-6">
+            This is probably the oldest and most tried and true. In numerous customer satisfaction studies it
+            has been shown that customers who received fast and effective service when having a problem
+            actually rated their satisfaction higher than customers who never experienced a problem in the first place.
+          </p>
+
+          <figure className="mt-10 border-l border-indigo-600 pl-9">
+            <blockquote className="font-semibold text-gray-900">
+              <p>
+                “Requiring a phone call or site visit for a simple problem that could easily be seen as more
+                annoyance than asset. Alternatively providing the right help with the truly complex issues can win
+                you a customer for life.”
+              </p>
+            </blockquote>
+          </figure>
+
+          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Never Stop Digging</h2>
+          <p className="mt-6">
+            A moat is only effective if it surrounds the entire castle. Even a great library of historical customer data
+            cannot save you if your customer service is weak. Likewise, great service cannot retain customers if
+            you fail to keep up with the prevailing ecosystems of your industry.
+          </p>
+
+          <figure className="mt-16">
+            <img
+              src={imageDigging3}
+              alt="Customer service strategy"
+              className="aspect-video rounded-xl bg-gray-50 object-cover"
+            />
+            <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+              <InformationCircleIcon aria-hidden="true" className="mt-0.5 h-5 w-5 flex-none text-gray-300" />
+              HubOEM’s continuous approach to fortifying customer relationships
+            </figcaption>
+          </figure>
+
+          <div className="mt-16 max-w-2xl">
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">The HubOEM Approach</h2>
+            <p className="mt-6">
+              HubOEM works hard to be a partner in all three of these critical areas — historical data, ecosystem
+              integration, and superior customer service — to help you fortify your business.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default WhitepapersDigging;
