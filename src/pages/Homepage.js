@@ -8,16 +8,16 @@ import {
     CloudIcon,
 } from '@heroicons/react/24/outline'
 import AutomationImg from '../img/automation.jpg'
-import OrderingDashboardImg from '../img/orderingDashboard.png'
+// import OrderingDashboardImg from '../img/orderingDashboard.png'
 import HubOem from '../img/HubOem.png'
 import DelLogo from '../img/logoDel.png'
-import MadeWestLogo from '../img/logoMadeWest.png'
+// import MadeWestLogo from '../img/logoMadeWest.png'
 // import SchneiderLogo from '../img/logoSchneider.png'
 import PhoenixLogo from '../img/phoenixLogo.png'
 import PalmerLogo from '../img/logoPalmer.png'
 import AbbottLogo from '../img/abbottLogo.jpg'
 import DaisyLogo from '../img/daisyLogo.jpg'
-import CircleBreweryLogo from '../img/logoCircleBrewery.png'
+// import CircleBreweryLogo from '../img/logoCircleBrewery.png'
 
 
 const features = [
@@ -477,7 +477,7 @@ function Homepage() {
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
-                                href="#"
+                                href="https://calendly.com/ethan-huboem/30min"
                                 className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
                             >
                                 Get started
