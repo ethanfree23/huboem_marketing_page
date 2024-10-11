@@ -198,7 +198,7 @@ function Homepage() {
                                 </p>
                                 <div className="mt-10 flex items-center justify-center gap-x-6">
                                     <a
-                                        href="#signup-section"
+                                        href="https://calendly.com/ethan-huboem/30min"
                                         className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
                                     >
                                         Get started
