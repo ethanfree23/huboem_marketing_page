@@ -1,3 +1,16 @@
+# Deploying to Plesk Notes:
+After pushing / merging changes to main:
+- login to plesk: https://ecstatic-feynman.104-236-52-201.plesk.page/smb/web/view
+- in huboem.com, find Git and click it
+- click pull now
+- click deploy now
+- click Applications in the sidebar
+- click Node.js App
+- click run script
+- type `build` and click run
+  - this will take a second
+- once it is done click the `X` and then click restart app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
