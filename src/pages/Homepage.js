@@ -312,6 +312,46 @@ function Homepage() {
                     </div>
                 </div>
 
+                <section class="bg-gray-100 py-12 mt-12">
+                    <div class="container mx-auto px-6">
+                        <h2 class="text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-8">
+                            Check Out Our Product in Action!
+                        </h2>
+
+                        <div class="flex justify-center mb-12">
+                            <div class="w-full lg:w-2/3 md:w-3/4 sm:w-full aspect-w-16 aspect-h-9">
+                                <iframe
+                                    class="w-full h-full rounded-lg shadow-lg"
+                                    src="https://www.youtube.com/embed/YE6c4mSB2zk"
+                                    title="HubOEM Video Service Overview"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+                        </div>
+
+=                        <div class="flex justify-center">
+                            <div class="w-full lg:w-2/3 md:w-3/4 sm:w-full aspect-w-16 aspect-h-9">
+                                <iframe
+                                    class="w-full h-full rounded-lg shadow-lg"
+                                    src="https://www.youtube.com/embed/UaYwSf7A4cA"
+                                    title="QR Codes Drive Customer Experience"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
                 {/* Testimonial section */}
                 <div id="testimonials-section" className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
                     <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
