@@ -314,11 +314,12 @@ function Homepage() {
 
                 <section class="bg-gray-100 py-12 mt-12">
                     <div class="container mx-auto px-6">
-                        <h2 class="text-3xl md:text-4xl font-semibold text-center text-gray-800 mb-8">
+                        <h2 class="text-3xl md:text-4xl font-semibold text-center text-gray-800">
                             Check Out Our Product in Action!
                         </h2>
 
-                        <div class="flex justify-center mb-12">
+              
+                        <div class="flex justify-center mb-6">
                             <div class="w-full lg:w-2/3 md:w-3/4 sm:w-full aspect-w-16 aspect-h-9">
                                 <iframe
                                     class="w-full h-full rounded-lg shadow-lg"
@@ -332,7 +333,8 @@ function Homepage() {
                             </div>
                         </div>
 
-=                        <div class="flex justify-center">
+       
+                        <div class="flex justify-center">
                             <div class="w-full lg:w-2/3 md:w-3/4 sm:w-full aspect-w-16 aspect-h-9">
                                 <iframe
                                     class="w-full h-full rounded-lg shadow-lg"
@@ -347,6 +349,7 @@ function Homepage() {
                         </div>
                     </div>
                 </section>
+
 
 
 
