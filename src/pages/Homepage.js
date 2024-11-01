@@ -390,12 +390,12 @@ function Homepage() {
                             <figure>
                                 <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
                                     <p>
-                                        “HubOEM is an excellent tool to provide your aftermarket or maintenance team. Easily access a profile for each machine to view documents, order parts, and request for service. We help your effort in preventing down time and ensuring your machines are running optimally.”
+                                        “HubOEM is a highly effective and efficient solution to make the most out of our equipment investment.”
                                     </p>
                                 </blockquote>
                                 <figcaption className="mt-6 text-base text-white">
-                                    <div className="font-semibold">Alex Johnson</div>
-                                    <div className="mt-1">CEO of HubOEM</div>
+                                    <div className="font-semibold">Jonathan Schwartz</div>
+                                    <div className="mt-1">VP of Operations, LVJCo</div>
                                 </figcaption>
                             </figure>
                         </div>
