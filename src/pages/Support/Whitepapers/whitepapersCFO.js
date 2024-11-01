@@ -28,7 +28,7 @@ function WhitepapersCFO() {
             doing more with less, automation equipment OEMs have a unique tool in their toolbelt in the 
             form of proactive after-sales demand management (PASDM). PASDM involves OEMs forming 
             closer relationships with their customers to create a more consistent, forecastable schedule for 
-            wear parts, services, and consumables. In a world of rising labor costs, supply chain 
+            wear parts, service, and consumables. In a world of rising labor costs, supply chain 
             bottlenecks, and uncertain inflation expectations, strengthening this OEM/Customer relationship 
             can pay tremendous dividends in terms of cost savings and operational efficiency in addition to 
             the boost it can provide for OEM business valuation.
@@ -37,7 +37,7 @@ function WhitepapersCFO() {
           <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-900">Boosts Higher Margin Sales</h2>
           <p className="mt-6">
             Automation OEMs typically derive most of their revenue from three sources, the first and 
-            most obvious being new equipment sales, then services including training, and lastly through 
+            most obvious being new equipment sales, then service including training, and lastly through 
             the sale of replacement parts, especially wear parts like belts, springs, and bearings. The exact 
             balance of these three areas will vary from one organization to the next, depending heavily on 
             the type and complexity of machines being sold with parts and service making up anywhere 

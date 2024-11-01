@@ -5,7 +5,7 @@ const footerNavigation = {
     solutions: [
       { name: 'Parts', href: '/parts' },
       { name: 'Documents', href: '/Documents' },
-      { name: 'Services', href: '/Services' },
+      { name: 'Service', href: '/Service' },
     ],
     support: [
       { name: 'Demonstration', href: '/Demonstration' },

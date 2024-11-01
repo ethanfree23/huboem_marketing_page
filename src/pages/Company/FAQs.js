@@ -45,7 +45,7 @@ const faqs = [
         id: 8,
         question: "Our machines have been in the field forever?",
         answer:
-            "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and services and assess opportunities for new equipment sales!",
+            "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and service and assess opportunities for new equipment sales!",
     },
     {
         id: 9,

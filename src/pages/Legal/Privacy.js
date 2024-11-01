@@ -62,13 +62,13 @@ function Privacy() {
                     </div>
                     <div className="max-w-xl text-base leading-7 text-gray-700 lg:col-span-7">
                         <p>
-                            We collect personal information that you voluntarily provide when you register for an account, purchase a license, or use our services. This may include your name, email address, payment information, and any other information necessary to provide you with access to your machine profiles.
+                            We collect personal information that you voluntarily provide when you register for an account, purchase a license, or use our service. This may include your name, email address, payment information, and any other information necessary to provide you with access to your machine profiles.
                         </p>
                         <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
                             <li className="flex gap-x-3">
                                 <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                                 <span>
-                                    <strong className="font-semibold text-gray-900">Data Collection.</strong> We may also collect non-personal information such as your IP address, browser type, and usage data to help improve our services and enhance your experience on our platform.
+                                    <strong className="font-semibold text-gray-900">Data Collection.</strong> We may also collect non-personal information such as your IP address, browser type, and usage data to help improve our service and enhance your experience on our platform.
                                 </span>
                             </li>
                             <li className="flex gap-x-3">
@@ -85,7 +85,7 @@ function Privacy() {
                             </li>
                         </ul>
                         <p className="mt-8">
-                            We do not sell, trade, or otherwise transfer your personal information to third parties unless it is necessary to provide our services, comply with legal obligations, or protect our rights.
+                            We do not sell, trade, or otherwise transfer your personal information to third parties unless it is necessary to provide our service, comply with legal obligations, or protect our rights.
                         </p>
                         <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Your Rights</h2>
                         <p className="mt-6">

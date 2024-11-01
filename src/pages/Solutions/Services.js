@@ -3,21 +3,21 @@ import serviceOne from '../../img/serviceOne.jpg'
 
 const features = [
     {
-        name: 'Schedule services',
+        name: 'Schedule service',
         description:
-            "Requesting for services has never been so easy. Simply access the machine's profile and fill out the request form.",
+            "Requesting for service has never been so easy. Simply access the machine's profile and fill out the request form.",
         imageSrc: serviceOne,
         imageAlt: 'Proud, hardworking, white man working on an American machine, helping push industry forward for himself, his family, and his nation.',
     },
 ]
 
-function Services() {
+function Service() {
     return (
         <div className="bg-white">
             <div className="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-none">
                     <div className="max-w-3xl">
-                        <h2 className="font-semibold text-gray-500">Services</h2>
+                        <h2 className="font-semibold text-gray-500">Service</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get the Guidance</p>
                         <p className="mt-4 text-gray-500">
                             Getting the help you need can make the difference in getting the job done on time. With HubOEM, you can interface with all your technicians from one platform.
@@ -48,4 +48,4 @@ function Services() {
     )
 }
 
-export default Services;
+export default Service;

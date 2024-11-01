@@ -42,19 +42,19 @@ const features = [
     {
         name: 'Gain insight with analytics',
         description:
-            'In their May 6th issue, The Economist referred to Data as the world’s most valuable commodity. Our team of packaging industry experts and data scientists uses your historical sales information to find patterns and trends to help you determine how best to price your parts and services to maximize your revenue.',
+            'In their May 6th issue, The Economist referred to Data as the world’s most valuable commodity. Our team of packaging industry experts and data scientists uses your historical sales information to find patterns and trends to help you determine how best to price your parts and service to maximize your revenue.',
         icon: MagnifyingGlassIcon,
     },
     {
         name: 'Create lock-in with your customers',
         description:
-            'Increase customer retention, not just for parts and services, but for capital sales as well. When customers use HubOEM, they experience better customer service and their machines run more smoothly, leading them to stick with the OEM.',
+            'Increase customer retention, not just for parts and service, but for capital sales as well. When customers use HubOEM, they experience better customer service and their machines run more smoothly, leading them to stick with the OEM.',
         icon: LockClosedIcon,
     },
     {
         name: 'Handle warranties with ease',
         description:
-            'Customers can accept and initiate their warranties on the app. When they purchase parts or request for services, we will keep track of what is covered under the warranty, so they can focus on getting their machines functioning.',
+            'Customers can accept and initiate their warranties on the app. When they purchase parts or request for service, we will keep track of what is covered under the warranty, so they can focus on getting their machines functioning.',
         icon: ShieldCheckIcon,
     },
 ]
@@ -145,7 +145,7 @@ const faqs = [
         id: 8,
         question: "Our machines have been in the field forever?",
         answer:
-            "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and services and assess opportunities for new equipment sales!",
+            "No Problem! Implementing HubOEM provides a great opportunity to connect with your install base, provide needed parts and service and assess opportunities for new equipment sales!",
     },
     {
         id: 9,
@@ -390,7 +390,7 @@ function Homepage() {
                             <figure>
                                 <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
                                     <p>
-                                        “HubOEM is an excellent tool to provide your aftermarket or maintenance team. Easily access a profile for each machine to view documents, order parts, and request for services. We help your effort in preventing down time and ensuring your machines are running optimally.”
+                                        “HubOEM is an excellent tool to provide your aftermarket or maintenance team. Easily access a profile for each machine to view documents, order parts, and request for service. We help your effort in preventing down time and ensuring your machines are running optimally.”
                                     </p>
                                 </blockquote>
                                 <figcaption className="mt-6 text-base text-white">

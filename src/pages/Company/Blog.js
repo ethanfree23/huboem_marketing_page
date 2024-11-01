@@ -4,7 +4,7 @@ const posts = [
         title: 'Boost your aftermarket sales',
         href: '#',
         description:
-            'Turns out, in 2024, consumers prefer to purchase goods and services through an online platform, as oppossed to calling or emailing to place an order. This article will provide some evidence, as well as some tips for how to change this.',
+            'Turns out, in 2024, consumers prefer to purchase goods and service through an online platform, as oppossed to calling or emailing to place an order. This article will provide some evidence, as well as some tips for how to change this.',
         date: 'Mar 16, 2024',
         datetime: '2024-03-16',
         category: { title: 'Marketing', href: '/marketing/blog/Boost_your_aftermarket_sales' },

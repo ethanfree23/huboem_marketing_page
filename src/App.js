@@ -10,7 +10,7 @@ import Homepage from './pages/Homepage.js'
 
 import Documents from './pages/Solutions/Documents.js'
 import Parts from './pages/Solutions/Parts.js'
-import Services from './pages/Solutions/Services.js'
+import Service from './pages/Solutions/Services.js'
 
 import Demonstration from './pages/Support/Demonstration.js'
 import Pricing from './pages/Support/Pricing.js'
@@ -47,7 +47,7 @@ function App() {
         {/* Footer - Solutions */}
         <Route path="/Parts" element={<Parts />} />
         <Route path="/Documents" element={<Documents />} />
-        <Route path="/Services" element={<Services />} />
+        <Route path="/Service" element={<Service />} />
 
         {/* Footer - Support */}
         <Route path="/Demonstration" element={<Demonstration />} />
