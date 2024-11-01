@@ -11,7 +11,7 @@ const features = [
         imageAlt: 'Quick access',
     },
     {
-        name: 'Froget about losing docs',
+        name: 'Forget about losing docs',
         description:
             "No longer will there be an issue finding the information you need for your organization. It's all right there.",
         imageSrc: forgetting,
