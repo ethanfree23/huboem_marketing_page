@@ -15,8 +15,9 @@ import DelLogo from '../img/logoDel.png'
 // import SchneiderLogo from '../img/logoSchneider.png'
 import PhoenixLogo from '../img/phoenixLogo.png'
 import PalmerLogo from '../img/logoPalmer.png'
-import AbbottLogo from '../img/abbottLogo.jpg'
-import DaisyLogo from '../img/daisyLogo.jpg'
+import SchneiderLogo from '../img/schneider_logo.webp'
+import ShibuyaLogo from '../img/shibuya_logo.png'
+import InLineLogo from '../img/inline_logo.webp'
 // import CircleBreweryLogo from '../img/logoCircleBrewery.png'
 
 
@@ -234,39 +235,46 @@ function Homepage() {
 
                 {/* Logo cloud */}
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                    <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-6">
                         <img
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            className="col-span-2 col-start-2 max-h-16 w-full object-contain md:col-span-2 lg:col-span-1"
                             src={DelLogo}
                             alt="Transistor"
                             width={158}
                             height={48}
                         />
                         <img
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            className="col-span-2 col-start-2 max-h-12 w-full object-contain md:col-span-2 lg:col-span-1"
                             src={PhoenixLogo}
                             alt="Reform"
                             width={158}
                             height={48}
                         />
                         <img
-                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                            className="col-span-2 col-start-2 max-h-12 w-full object-contain md:col-span-2 lg:col-span-1"
                             src={PalmerLogo}
                             alt="Tuple"
                             width={158}
                             height={48}
                         />
                         <img
-                            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                            src={AbbottLogo}
+                            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto md:col-span-2 lg:col-span-1"
+                            src={ShibuyaLogo}
+                            alt="Statamic"
+                            width={158}
+                            height={48}
+                            />
+                        <img
+                            className="col-span-2 col-start-2 max-h-18 w-full object-contain sm:col-start-auto md:col-span-2 lg:col-span-1"
+                            src={SchneiderLogo}
                             alt="SavvyCal"
                             width={158}
                             height={48}
                         />
                         <img
-                            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                            src={DaisyLogo}
-                            alt="Statamic"
+                            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto md:col-span-2 lg:col-span-1"
+                            src={InLineLogo}
+                            alt="SavvyCal"
                             width={158}
                             height={48}
                         />
