@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { CheckIcon } from '@heroicons/react/20/solid'
 import {
     ArrowTrendingUpIcon,
@@ -20,6 +22,20 @@ import ShibuyaLogo from '../img/shibuya_logo.png'
 import InLineLogo from '../img/inline_logo.webp'
 // import CircleBreweryLogo from '../img/logoCircleBrewery.png'
 
+const testimonials = [
+    {
+        quote:
+        "This thing is great! My colleagues thought this would be more work, but I had to tell them: this is saving me days on each order. No more waiting for a quote - I can see prices, and place my order whenever I want.",
+        name: "Mark Brown",
+        title: "OZ Packaging",
+    },
+    {
+        quote:
+            "HubOEM is a highly effective and efficient solution to make the most out of our equipment investment.",
+        name: "Jonathan Schwartz",
+        title: "VP of Operations, LVJCo",
+    },
+];
 
 const features = [
     {
@@ -167,6 +183,14 @@ function classNames(...classes) {
 }
 
 function Homepage() {
+    const [index, setIndex] = useState(0);
+
+    const prev = () =>
+        setIndex((index - 1 + testimonials.length) % testimonials.length);
+    const next = () => setIndex((index + 1) % testimonials.length);
+
+    const testimonial = testimonials[index];
+
     return (
         <div className="bg-white">
             <main className="isolate">
@@ -188,7 +212,7 @@ function Homepage() {
                         <div className="mx-auto max-w-7xl px-6 lg:px-8">
                             <div className="mx-auto max-w-2xl text-center">
                                 <h1 id="about-section" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                                    Aftermarket Customer Service Platform
+                                    Aftermarket Customer Service Portal
                                 </h1>
                                 <h2 className="text-xl sm:text-2xltracking-tight text-gray-900 sm:text-3xl pt-4">
                                     Parts, Service, Documents.
@@ -263,7 +287,7 @@ function Homepage() {
                             alt="Statamic"
                             width={158}
                             height={48}
-                            />
+                        />
                         <img
                             className="col-span-2 col-start-2 max-h-18 w-full object-contain sm:col-start-auto md:col-span-2 lg:col-span-1"
                             src={SchneiderLogo}
@@ -326,7 +350,7 @@ function Homepage() {
                             Check Out Our Product in Action!
                         </h2>
 
-              
+
                         <div class="flex justify-center mb-6">
                             <div class="w-full lg:w-2/3 md:w-3/4 sm:w-full aspect-w-16 aspect-h-9">
                                 <iframe
@@ -341,7 +365,7 @@ function Homepage() {
                             </div>
                         </div>
 
-       
+
                         <div class="flex justify-center">
                             <div class="w-full lg:w-2/3 md:w-3/4 sm:w-full aspect-w-16 aspect-h-9">
                                 <iframe
@@ -364,7 +388,19 @@ function Homepage() {
 
 
                 {/* Testimonial section */}
-                <div id="testimonials-section" className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
+                <div id="testimonials-section" className="relative mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
+                    {/* ARROWS: Moved here, directly under this parent */}
+                    <div className="absolute left-10 top-1/2 -translate-y-1/2 z-10">
+                        <button onClick={prev} className="p-2 rounded-full bg-white/10 hover:bg-white/20">
+                            <ChevronLeft className="w-6 h-6 text-white" />
+                        </button>
+                    </div>
+                    <div className="absolute right-10 top-1/2 -translate-y-1/2 z-10">
+                        <button onClick={next} className="p-2 rounded-full bg-white/10 hover:bg-white/20">
+                            <ChevronRight className="w-6 h-6 text-white" />
+                        </button>
+                    </div>
+
                     <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
                         <img
                             className="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0"
@@ -372,6 +408,7 @@ function Homepage() {
                             alt=""
                         />
                         <div className="absolute inset-0 bg-gray-900/90 mix-blend-multiply" />
+
                         <div className="absolute -left-80 -top-56 transform-gpu blur-3xl" aria-hidden="true">
                             <div
                                 className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-r from-[#5ED797] to-[#7FA4E7] opacity-[0.45]"
@@ -381,6 +418,7 @@ function Homepage() {
                                 }}
                             />
                         </div>
+
                         <div
                             className="hidden md:absolute md:bottom-16 md:left-[50rem] md:block md:transform-gpu md:blur-3xl"
                             aria-hidden="true"
@@ -393,22 +431,21 @@ function Homepage() {
                                 }}
                             />
                         </div>
-                        <div className="relative mx-auto max-w-2xl lg:mx-0">
-                            {/* <img className="h-12 w-auto" src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" /> */}
+
+                        <div className="relative mx-auto max-w-2xl lg:mx-0 text-white">
                             <figure>
-                                <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl sm:leading-8">
-                                    <p>
-                                        “HubOEM is a highly effective and efficient solution to make the most out of our equipment investment.”
-                                    </p>
+                                <blockquote className="mt-6 text-lg font-semibold sm:text-xl sm:leading-8">
+                                    <p>“{testimonial.quote}”</p>
                                 </blockquote>
-                                <figcaption className="mt-6 text-base text-white">
-                                    <div className="font-semibold">Jonathan Schwartz</div>
-                                    <div className="mt-1">VP of Operations, LVJCo</div>
+                                <figcaption className="mt-6 text-base">
+                                    <div className="font-semibold">{testimonial.name}</div>
+                                    <div className="mt-1">{testimonial.title}</div>
                                 </figcaption>
                             </figure>
                         </div>
                     </div>
                 </div>
+
 
                 {/* FAQs */}
                 <div id="faq-section" className="mx-auto max-w-2xl divide-y divide-gray-900/10 px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
